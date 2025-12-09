@@ -1,0 +1,1041 @@
+&& cp -r ./prisma/DATABASE_PROVIDER-migrations ./prisma/migrations && npx prisma migrate deploy --schema ./prisma/DATABASE_PROVIDER-schema.prisma"
+Prisma schema loaded from prisma/postgresql-schema.prisma
+Datasource "db": PostgreSQL database "evolution_api_qre1", schema "public" at "dpg-d4s4h6vpm1nc7385feh0-a.oregon-postgres.render.com"
+57 migrations found in prisma/migrations
+No pending migrations to apply.
+> evolution-api@2.3.7 start:prod
+> node dist/main
+==> No open ports detected, continuing to scan...
+==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:21     INFO   [WA MODULE]  [string]  Module - ON 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:23     INFO   [PrismaRepository]  [string]  Repository:Prisma - ON 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:23     LOG   [SERVER]  [string]  HTTP - ON: 8080 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:23     INFO   [WAMonitoringService]  [string]  Auto-connecting instance "Eksu marketplace" (status: open) 
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:23     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1042-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:24     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030837878 
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:24     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:24     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Erro não recuperável (404): Request failed with status code 404. Cancelando retentativas.',
+  statusCode: 404,
+  url: 'https://evolution-api-x1xv.onrender.com//connection-update',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:24     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Todas as tentativas falharam: Request failed with status code 404',
+  hostName: undefined,
+  syscall: undefined,
+  code: 'ERR_BAD_REQUEST',
+  error: undefined,
+  stack: 'AxiosError: Request failed with status code 404\n' +
+    '    at settle (/evolution/node_modules/axios/dist/node/axios.cjs:2106:12)\n' +
+    '    at BrotliDecompress.handleStreamEnd (/evolution/node_modules/axios/dist/node/axios.cjs:3491:11)\n' +
+    '    at BrotliDecompress.emit (node:events:508:28)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1701:12)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\n' +
+    '    at Axios.request (/evolution/node_modules/axios/dist/node/axios.cjs:4731:41)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+    '    at async _a.retryWebhookRequest (/evolution/dist/main.js:316:67644)\n' +
+    '    at async _a.emit (/evolution/dist/main.js:316:66455)\n' +
+    '    at async Oa.emit (/evolution/dist/main.js:316:72734)\n' +
+    '    at async sa.sendDataWebhook (/evolution/dist/main.js:174:17601)',
+  name: 'AxiosError',
+  url: 'https://evolution-api-x1xv.onrender.com//connection-update',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+{"level":50,"time":1765319005797,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","error":{"name":"SessionError"},"msg":"transaction failed, rolling back"}
+{"level":50,"time":1765319005798,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","key":{"remoteJid":"201503339978753@lid","remoteJidAlt":"2348164143260@s.whatsapp.net","fromMe":false,"id":"3AE6F3402492A836666C","addressingMode":"lid"},"err":{"type":"SessionError","message":"No session record","stack":"SessionError: No session record\n    at 201503339978753_1.0 [as awaitable] (/evolution/node_modules/libsignal/src/session_cipher.js:169:23)\n    at async _asyncQueueExecutor (/evolution/node_modules/libsignal/src/queue_job.js:20:29)","name":"SessionError"},"messageType":"msg","sender":"201503339978753@lid","author":"201503339978753@lid","isSessionRecordError":true,"msg":"failed to decrypt message"}
+==> Your service is live 🎉
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:26     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:26     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:26     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Erro não recuperável (404): Request failed with status code 404. Cancelando retentativas.',
+  statusCode: 404,
+  url: 'https://evolution-api-x1xv.onrender.com//connection-update',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:26     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Todas as tentativas falharam: Request failed with status code 404',
+  hostName: undefined,
+  syscall: undefined,
+  code: 'ERR_BAD_REQUEST',
+  error: undefined,
+  stack: 'AxiosError: Request failed with status code 404\n' +
+    '    at settle (/evolution/node_modules/axios/dist/node/axios.cjs:2106:12)\n' +
+    '    at BrotliDecompress.handleStreamEnd (/evolution/node_modules/axios/dist/node/axios.cjs:3491:11)\n' +
+    '    at BrotliDecompress.emit (node:events:508:28)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1701:12)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\n' +
+    '    at Axios.request (/evolution/node_modules/axios/dist/node/axios.cjs:4731:41)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+    '    at async _a.retryWebhookRequest (/evolution/dist/main.js:316:67644)\n' +
+    '    at async _a.emit (/evolution/dist/main.js:316:66455)\n' +
+    '    at async Oa.emit (/evolution/dist/main.js:316:72734)\n' +
+    '    at async sa.sendDataWebhook (/evolution/dist/main.js:174:17601)',
+  name: 'AxiosError',
+  url: 'https://evolution-api-x1xv.onrender.com//connection-update',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+{"level":50,"time":1765319006393,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","error":{"name":"SessionError"},"msg":"transaction failed, rolling back"}
+{"level":50,"time":1765319006394,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","key":{"remoteJid":"201503339978753@lid","remoteJidAlt":"2348164143260@s.whatsapp.net","fromMe":false,"id":"3A90511B9B3D38575685","addressingMode":"lid"},"err":{"type":"SessionError","message":"No session record","stack":"SessionError: No session record\n    at 201503339978753_1.0 [as awaitable] (/evolution/node_modules/libsignal/src/session_cipher.js:169:23)\n    at async _asyncQueueExecutor (/evolution/node_modules/libsignal/src/queue_job.js:20:29)","name":"SessionError"},"messageType":"msg","sender":"201503339978753@lid","author":"201503339978753@lid","isSessionRecordError":true,"msg":"failed to decrypt message"}
+==> 
+==> ///////////////////////////////////////////////////////////
+{"level":50,"time":1765319006854,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","error":{"name":"SessionError"},"msg":"transaction failed, rolling back"}
+{"level":50,"time":1765319006854,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","key":{"remoteJid":"201503339978753@lid","remoteJidAlt":"2348164143260@s.whatsapp.net","fromMe":false,"id":"3AC5D81D1844C7A5E913","addressingMode":"lid"},"err":{"type":"SessionError","message":"No session record","stack":"SessionError: No session record\n    at 201503339978753_1.0 [as awaitable] (/evolution/node_modules/libsignal/src/session_cipher.js:169:23)\n    at async _asyncQueueExecutor (/evolution/node_modules/libsignal/src/queue_job.js:20:29)","name":"SessionError"},"messageType":"msg","sender":"201503339978753@lid","author":"201503339978753@lid","isSessionRecordError":true,"msg":"failed to decrypt message"}
+==> 
+{"level":50,"time":1765319007218,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","error":{"name":"SessionError"},"msg":"transaction failed, rolling back"}
+{"level":50,"time":1765319007218,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","key":{"remoteJid":"201503339978753@lid","remoteJidAlt":"2348164143260@s.whatsapp.net","fromMe":false,"id":"3AFB12A40E4B718B4B2A","addressingMode":"lid"},"err":{"type":"SessionError","message":"No session record","stack":"SessionError: No session record\n    at 201503339978753_1.0 [as awaitable] (/evolution/node_modules/libsignal/src/session_cipher.js:169:23)\n    at async _asyncQueueExecutor (/evolution/node_modules/libsignal/src/queue_job.js:20:29)","name":"SessionError"},"messageType":"msg","sender":"201503339978753@lid","author":"201503339978753@lid","isSessionRecordError":true,"msg":"failed to decrypt message"}
+{"level":50,"time":1765319007575,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","error":{"name":"SessionError"},"msg":"transaction failed, rolling back"}
+{"level":50,"time":1765319007575,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","key":{"remoteJid":"2348164143260@s.whatsapp.net","remoteJidAlt":"201503339978753@lid","fromMe":true,"id":"2AB57D12A7A5BEE8E9F9","addressingMode":"pn"},"err":{"type":"SessionError","message":"No session record","stack":"SessionError: No session record\n    at 73332909162646_1.0 [as awaitable] (/evolution/node_modules/libsignal/src/session_cipher.js:169:23)\n    at async _asyncQueueExecutor (/evolution/node_modules/libsignal/src/queue_job.js:20:29)","name":"SessionError"},"messageType":"msg","sender":"17086686326@s.whatsapp.net","author":"17086686326@s.whatsapp.net","isSessionRecordError":true,"msg":"failed to decrypt message"}
+==> Available at your primary URL https://evolution-api-x1xv.onrender.com
+==> 
+==> ///////////////////////////////////////////////////////////
+{"level":50,"time":1765319008641,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","error":{"name":"SessionError"},"msg":"transaction failed, rolling back"}
+{"level":50,"time":1765319008641,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","key":{"remoteJid":"2348164143260@s.whatsapp.net","remoteJidAlt":"201503339978753@lid","fromMe":true,"id":"2A68438F562480DDCC25","addressingMode":"pn"},"err":{"type":"SessionError","message":"No session record","stack":"SessionError: No session record\n    at 73332909162646_1.0 [as awaitable] (/evolution/node_modules/libsignal/src/session_cipher.js:169:23)\n    at async _asyncQueueExecutor (/evolution/node_modules/libsignal/src/queue_job.js:20:29)","name":"SessionError"},"messageType":"msg","sender":"17086686326@s.whatsapp.net","author":"17086686326@s.whatsapp.net","isSessionRecordError":true,"msg":"failed to decrypt message"}
+{"level":50,"time":1765319008995,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","error":{"name":"SessionError"},"msg":"transaction failed, rolling back"}
+{"level":50,"time":1765319008995,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","key":{"remoteJid":"201503339978753@lid","remoteJidAlt":"2348164143260@s.whatsapp.net","fromMe":false,"id":"3A5AC302DD3D615DA3A6","addressingMode":"lid"},"err":{"type":"SessionError","message":"No session record","stack":"SessionError: No session record\n    at 201503339978753_1.0 [as awaitable] (/evolution/node_modules/libsignal/src/session_cipher.js:169:23)\n    at async _asyncQueueExecutor (/evolution/node_modules/libsignal/src/queue_job.js:20:29)","name":"SessionError"},"messageType":"msg","sender":"201503339978753@lid","author":"201503339978753@lid","isSessionRecordError":true,"msg":"failed to decrypt message"}
+{"level":50,"time":1765319009350,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","error":{"name":"SessionError"},"msg":"transaction failed, rolling back"}
+{"level":50,"time":1765319009350,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","key":{"remoteJid":"201503339978753@lid","remoteJidAlt":"2348164143260@s.whatsapp.net","fromMe":false,"id":"3A8E6C26D0DD0F961F80","addressingMode":"lid"},"err":{"type":"SessionError","message":"No session record","stack":"SessionError: No session record\n    at 201503339978753_1.0 [as awaitable] (/evolution/node_modules/libsignal/src/session_cipher.js:169:23)\n    at async _asyncQueueExecutor (/evolution/node_modules/libsignal/src/queue_job.js:20:29)","name":"SessionError"},"messageType":"msg","sender":"201503339978753@lid","author":"201503339978753@lid","isSessionRecordError":true,"msg":"failed to decrypt message"}
+{"level":50,"time":1765319009722,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","error":{"name":"SessionError"},"msg":"transaction failed, rolling back"}
+{"level":50,"time":1765319009722,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","key":{"remoteJid":"2348164143260@s.whatsapp.net","remoteJidAlt":"201503339978753@lid","fromMe":true,"id":"2AB57D12A7A5BEE8E9F9","addressingMode":"pn"},"err":{"type":"SessionError","message":"No session record","stack":"SessionError: No session record\n    at 73332909162646_1.0 [as awaitable] (/evolution/node_modules/libsignal/src/session_cipher.js:169:23)\n    at async _asyncQueueExecutor (/evolution/node_modules/libsignal/src/queue_job.js:20:29)","name":"SessionError"},"messageType":"msg","sender":"17086686326@s.whatsapp.net","author":"17086686326@s.whatsapp.net","isSessionRecordError":true,"msg":"failed to decrypt message"}
+{"level":50,"time":1765319010078,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","error":{"name":"SessionError"},"msg":"transaction failed, rolling back"}
+{"level":50,"time":1765319010078,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","key":{"remoteJid":"2348164143260@s.whatsapp.net","remoteJidAlt":"201503339978753@lid","fromMe":true,"id":"2A68438F562480DDCC25","addressingMode":"pn"},"err":{"type":"SessionError","message":"No session record","stack":"SessionError: No session record\n    at 73332909162646_1.0 [as awaitable] (/evolution/node_modules/libsignal/src/session_cipher.js:169:23)\n    at async _asyncQueueExecutor (/evolution/node_modules/libsignal/src/queue_job.js:20:29)","name":"SessionError"},"messageType":"msg","sender":"17086686326@s.whatsapp.net","author":"17086686326@s.whatsapp.net","isSessionRecordError":true,"msg":"failed to decrypt message"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:30     WARN   [ChannelStartupService]  [string]  Message ignored with messageStubParameters: {
+  "key": {
+    "remoteJid": "201503339978753@lid",
+    "remoteJidAlt": "2348164143260@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3AE6F3402492A836666C",
+    "participant": "",
+    "addressingMode": "lid"
+  },
+  "messageTimestamp": 1765315644,
+  "pushName": ".",
+  "broadcast": false,
+  "messageStubType": 2,
+  "messageStubParameters": [
+    "No session record"
+  ]
+} 
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:30     WARN   [ChannelStartupService]  [string]  Message ignored with messageStubParameters: {
+  "key": {
+    "remoteJid": "201503339978753@lid",
+    "remoteJidAlt": "2348164143260@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3A90511B9B3D38575685",
+    "participant": "",
+    "addressingMode": "lid"
+  },
+  "messageTimestamp": 1765315647,
+  "pushName": ".",
+  "broadcast": false,
+  "messageStubType": 2,
+  "messageStubParameters": [
+    "No session record"
+  ]
+} 
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:30     WARN   [ChannelStartupService]  [string]  Message ignored with messageStubParameters: {
+  "key": {
+    "remoteJid": "201503339978753@lid",
+    "remoteJidAlt": "2348164143260@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3AC5D81D1844C7A5E913",
+    "participant": "",
+    "addressingMode": "lid"
+  },
+  "messageTimestamp": 1765316969,
+  "pushName": ".",
+  "broadcast": false,
+  "messageStubType": 2,
+  "messageStubParameters": [
+    "No session record"
+  ]
+} 
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:30     WARN   [ChannelStartupService]  [string]  Message ignored with messageStubParameters: {
+  "key": {
+    "remoteJid": "201503339978753@lid",
+    "remoteJidAlt": "2348164143260@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3AFB12A40E4B718B4B2A",
+    "participant": "",
+    "addressingMode": "lid"
+  },
+  "messageTimestamp": 1765316972,
+  "pushName": ".",
+  "broadcast": false,
+  "messageStubType": 2,
+  "messageStubParameters": [
+    "No session record"
+  ]
+} 
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:30     WARN   [ChannelStartupService]  [string]  Message ignored with messageStubParameters: {
+  "key": {
+    "remoteJid": "2348164143260@s.whatsapp.net",
+    "remoteJidAlt": "201503339978753@lid",
+    "fromMe": true,
+    "id": "2AB57D12A7A5BEE8E9F9",
+    "participant": "",
+    "addressingMode": "pn"
+  },
+  "messageTimestamp": 1765317342,
+  "pushName": "Options Trading Uni",
+  "broadcast": false,
+  "status": 2,
+  "retryCount": 1,
+  "messageStubType": 2,
+  "messageStubParameters": [
+    "No session record"
+  ]
+} 
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:30     WARN   [ChannelStartupService]  [string]  Message ignored with messageStubParameters: {
+  "key": {
+    "remoteJid": "2348164143260@s.whatsapp.net",
+    "remoteJidAlt": "201503339978753@lid",
+    "fromMe": true,
+    "id": "2A68438F562480DDCC25",
+    "participant": "",
+    "addressingMode": "pn"
+  },
+  "messageTimestamp": 1765317349,
+  "pushName": "Options Trading Uni",
+  "broadcast": false,
+  "status": 2,
+  "messageStubType": 2,
+  "messageStubParameters": [
+    "No session record"
+  ]
+} 
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:30     WARN   [ChannelStartupService]  [string]  Message ignored with messageStubParameters: {
+  "key": {
+    "remoteJid": "201503339978753@lid",
+    "remoteJidAlt": "2348164143260@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3A5AC302DD3D615DA3A6",
+    "participant": "",
+    "addressingMode": "lid"
+  },
+  "messageTimestamp": 1765317360,
+  "pushName": ".",
+  "broadcast": false,
+  "messageStubType": 2,
+  "messageStubParameters": [
+    "No session record"
+  ]
+} 
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:30     WARN   [ChannelStartupService]  [string]  Message ignored with messageStubParameters: {
+  "key": {
+    "remoteJid": "201503339978753@lid",
+    "remoteJidAlt": "2348164143260@s.whatsapp.net",
+    "fromMe": false,
+    "id": "3A8E6C26D0DD0F961F80",
+    "participant": "",
+    "addressingMode": "lid"
+  },
+  "messageTimestamp": 1765317366,
+  "pushName": ".",
+  "broadcast": false,
+  "messageStubType": 2,
+  "messageStubParameters": [
+    "No session record"
+  ]
+} 
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_3AE6F3402492A836666C_4',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765319010
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:30     WARN   [ChannelStartupService]  [string]  Original message not found for update. Skipping. Key: {"remoteJid":"2348164143260@s.whatsapp.net","id":"3AE6F3402492A836666C","fromMe":false} 
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_3A90511B9B3D38575685_4',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765319010
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:30     WARN   [ChannelStartupService]  [string]  Original message not found for update. Skipping. Key: {"remoteJid":"2348164143260@s.whatsapp.net","id":"3A90511B9B3D38575685","fromMe":false} 
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_3AC5D81D1844C7A5E913_4',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765319010
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:30     WARN   [ChannelStartupService]  [string]  Original message not found for update. Skipping. Key: {"remoteJid":"2348164143260@s.whatsapp.net","id":"3AC5D81D1844C7A5E913","fromMe":false} 
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_3AFB12A40E4B718B4B2A_4',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765319010
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:30     WARN   [ChannelStartupService]  [string]  Original message not found for update. Skipping. Key: {"remoteJid":"2348164143260@s.whatsapp.net","id":"3AFB12A40E4B718B4B2A","fromMe":false} 
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_2AB57D12A7A5BEE8E9F9_3',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765319010
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:30     WARN   [ChannelStartupService]  [string]  Original message not found for update. Skipping. Key: {"remoteJid":"201503339978753@lid","id":"2AB57D12A7A5BEE8E9F9","fromMe":true} 
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_2A68438F562480DDCC25_3',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765319010
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:30     WARN   [ChannelStartupService]  [string]  Original message not found for update. Skipping. Key: {"remoteJid":"201503339978753@lid","id":"2A68438F562480DDCC25","fromMe":true} 
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_3A5AC302DD3D615DA3A6_4',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765319010
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:30     WARN   [ChannelStartupService]  [string]  Original message not found for update. Skipping. Key: {"remoteJid":"2348164143260@s.whatsapp.net","id":"3A5AC302DD3D615DA3A6","fromMe":false} 
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_3A8E6C26D0DD0F961F80_4',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765319010
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:30     WARN   [ChannelStartupService]  [string]  Original message not found for update. Skipping. Key: {"remoteJid":"2348164143260@s.whatsapp.net","id":"3A8E6C26D0DD0F961F80","fromMe":false} 
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:30     DEBUG   [ChannelStartupService]  [string]  Updating contact: {
+  "id": "201503339978753@lid",
+  "notify": "."
+} 
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:30     WARN   [ChannelStartupService]  [string]  Message ignored with messageStubParameters: {
+  "key": {
+    "remoteJid": "2348164143260@s.whatsapp.net",
+    "remoteJidAlt": "201503339978753@lid",
+    "fromMe": true,
+    "id": "2A68438F562480DDCC25",
+    "participant": "",
+    "addressingMode": "pn"
+  },
+  "messageTimestamp": 1765319009,
+  "pushName": "Options Trading Uni",
+  "broadcast": false,
+  "status": 2,
+  "retryCount": 1,
+  "messageStubType": 2,
+  "messageStubParameters": [
+    "No session record"
+  ]
+} 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:30     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Erro não recuperável (404): Request failed with status code 404. Cancelando retentativas.',
+  statusCode: 404,
+  url: 'https://evolution-api-x1xv.onrender.com//contacts-update',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:30     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Todas as tentativas falharam: Request failed with status code 404',
+  hostName: undefined,
+  syscall: undefined,
+  code: 'ERR_BAD_REQUEST',
+  error: undefined,
+  stack: 'AxiosError: Request failed with status code 404\n' +
+    '    at settle (/evolution/node_modules/axios/dist/node/axios.cjs:2106:12)\n' +
+    '    at BrotliDecompress.handleStreamEnd (/evolution/node_modules/axios/dist/node/axios.cjs:3491:11)\n' +
+    '    at BrotliDecompress.emit (node:events:508:28)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1701:12)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\n' +
+    '    at Axios.request (/evolution/node_modules/axios/dist/node/axios.cjs:4731:41)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+    '    at async _a.retryWebhookRequest (/evolution/dist/main.js:316:67644)\n' +
+    '    at async _a.emit (/evolution/dist/main.js:316:66455)\n' +
+    '    at async Oa.emit (/evolution/dist/main.js:316:72734)\n' +
+    '    at async sa.sendDataWebhook (/evolution/dist/main.js:174:17601)',
+  name: 'AxiosError',
+  url: 'https://evolution-api-x1xv.onrender.com//contacts-update',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+{"level":50,"time":1765319012345,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","error":{"name":"SessionError"},"msg":"transaction failed, rolling back"}
+{"level":50,"time":1765319012345,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","key":{"remoteJid":"2348164143260@s.whatsapp.net","remoteJidAlt":"201503339978753@lid","fromMe":true,"id":"2AB57D12A7A5BEE8E9F9","addressingMode":"pn"},"err":{"type":"SessionError","message":"No session record","stack":"SessionError: No session record\n    at 73332909162646_1.0 [as awaitable] (/evolution/node_modules/libsignal/src/session_cipher.js:169:23)\n    at async _asyncQueueExecutor (/evolution/node_modules/libsignal/src/queue_job.js:20:29)","name":"SessionError"},"messageType":"msg","sender":"17086686326@s.whatsapp.net","author":"17086686326@s.whatsapp.net","isSessionRecordError":true,"msg":"failed to decrypt message"}
+{"level":50,"time":1765319012701,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","error":{"name":"SessionError"},"msg":"transaction failed, rolling back"}
+{"level":50,"time":1765319012701,"pid":114,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5d645cb78f-bzlws","key":{"remoteJid":"2348164143260@s.whatsapp.net","remoteJidAlt":"201503339978753@lid","fromMe":true,"id":"2A68438F562480DDCC25","addressingMode":"pn"},"err":{"type":"SessionError","message":"No session record","stack":"SessionError: No session record\n    at 73332909162646_1.0 [as awaitable] (/evolution/node_modules/libsignal/src/session_cipher.js:169:23)\n    at async _asyncQueueExecutor (/evolution/node_modules/libsignal/src/queue_job.js:20:29)","name":"SessionError"},"messageType":"msg","sender":"17086686326@s.whatsapp.net","author":"17086686326@s.whatsapp.net","isSessionRecordError":true,"msg":"failed to decrypt message"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:32     WARN   [ChannelStartupService]  [string]  Message ignored with messageStubParameters: {
+  "key": {
+    "remoteJid": "2348164143260@s.whatsapp.net",
+    "remoteJidAlt": "201503339978753@lid",
+    "fromMe": true,
+    "id": "2AB57D12A7A5BEE8E9F9",
+    "participant": "",
+    "addressingMode": "pn"
+  },
+  "messageTimestamp": 1765319012,
+  "pushName": "Options Trading Uni",
+  "broadcast": false,
+  "status": 2,
+  "retryCount": 2,
+  "messageStubType": 2,
+  "messageStubParameters": [
+    "No session record"
+  ]
+} 
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:33     WARN   [ChannelStartupService]  [string]  Message ignored with messageStubParameters: {
+  "key": {
+    "remoteJid": "2348164143260@s.whatsapp.net",
+    "remoteJidAlt": "201503339978753@lid",
+    "fromMe": true,
+    "id": "2A68438F562480DDCC25",
+    "participant": "",
+    "addressingMode": "pn"
+  },
+  "messageTimestamp": 1765319012,
+  "pushName": "Options Trading Uni",
+  "broadcast": false,
+  "status": 2,
+  "retryCount": 2,
+  "messageStubType": 2,
+  "messageStubParameters": [
+    "No session record"
+  ]
+} 
+Closing session: SessionEntry {
+  _chains: {
+    'BQZfWyofz3xyKfa9vOawugDiky/kqe8hSLB/ClStzUVU': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 606466301,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 06 5f 5b 2a 1f cf 7c 72 29 f6 bd bc e6 b0 ba 00 e2 93 2f e4 a9 ef 21 48 b0 7f 0a 54 ad cd 45 54>,
+      privKey: <Buffer 90 47 44 38 6d 2d 25 34 38 76 c5 98 67 37 a8 29 91 68 1b 3c 54 2e 98 2e 46 46 1a 07 48 54 dd 6d>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 69 8c 1c 2f 4b 6b 86 e3 7d 1b 54 a4 58 b6 35 0d 81 67 f2 ce 67 c5 2e c9 a9 d6 cf 39 d1 8c 3c 3b>,
+    previousCounter: 0,
+    rootKey: <Buffer f9 8d 08 0b dd 12 86 2c e8 cc ed 2e 8a 1f d5 34 3e f1 eb 17 cc f7 df 6e cf b7 92 20 51 2d 4e b4>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 df 31 0f 68 27 c7 91 4b 82 a4 6c f7 be 52 84 f8 2d 47 34 9e 18 43 dd b5 1e e0 1f a4 52 8e ab 07>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1765319014005,
+    created: 1765319014005,
+    remoteIdentityKey: <Buffer 05 ff 19 42 e5 5d 1d 28 25 d7 a4 99 f7 33 7e b0 a3 00 90 ef 4a 6d 57 ff 59 4b 53 59 ca 1a 90 00 03>
+  },
+  pendingPreKey: {
+    signedKeyId: 11299889,
+    baseKey: <Buffer 05 df 31 0f 68 27 c7 91 4b 82 a4 6c f7 be 52 84 f8 2d 47 34 9e 18 43 dd b5 1e e0 1f a4 52 8e ab 07>,
+    preKeyId: 43
+  }
+}
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_3EB001F1518EF7E8F2672F_0',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765319014
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:34     WARN   [ChannelStartupService]  [string]  Original message not found for update. Skipping. Key: {"remoteJid":"17086686326@s.whatsapp.net","fromMe":true,"id":"3EB001F1518EF7E8F2672F"} 
+Closing session: SessionEntry {
+  _chains: {
+    'Bc7siuOiuEOw0oiBYz1h8tKL58S08+wUZQeovbX/5rhB': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 606466301,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 ce ec 8a e3 a2 b8 43 b0 d2 88 81 63 3d 61 f2 d2 8b e7 c4 b4 f3 ec 14 65 07 a8 bd b5 ff e6 b8 41>,
+      privKey: <Buffer 80 96 4d b6 cf 0d e8 3a 23 53 d1 ca 64 85 a7 8e 58 38 9c f4 94 ed 61 8e 2d 26 6e ee b7 a7 82 54>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 69 8c 1c 2f 4b 6b 86 e3 7d 1b 54 a4 58 b6 35 0d 81 67 f2 ce 67 c5 2e c9 a9 d6 cf 39 d1 8c 3c 3b>,
+    previousCounter: 0,
+    rootKey: <Buffer 5b e5 4a ae aa ee 39 2b 05 89 2f c4 59 d6 39 3e 82 f8 a5 e0 a1 01 ce f6 00 2b 26 5d af eb 87 75>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 bc eb d0 e9 63 7a c4 b2 e0 8a 88 58 32 54 42 ec 99 a9 fc bd a4 ce bc a8 29 33 e0 34 d3 b5 f5 5e>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1765319014501,
+    created: 1765319014501,
+    remoteIdentityKey: <Buffer 05 ff 19 42 e5 5d 1d 28 25 d7 a4 99 f7 33 7e b0 a3 00 90 ef 4a 6d 57 ff 59 4b 53 59 ca 1a 90 00 03>
+  },
+  pendingPreKey: {
+    signedKeyId: 11299889,
+    baseKey: <Buffer 05 bc eb d0 e9 63 7a c4 b2 e0 8a 88 58 32 54 42 ec 99 a9 fc bd a4 ce bc a8 29 33 e0 34 d3 b5 f5 5e>,
+    preKeyId: 58
+  }
+}
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_3EB0EA7554452C9060B1D4_0',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765319015
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:35     WARN   [ChannelStartupService]  [string]  Original message not found for update. Skipping. Key: {"remoteJid":"17086686326@s.whatsapp.net","fromMe":true,"id":"3EB0EA7554452C9060B1D4"} 
+Closing open session in favor of incoming prekey bundle
+Closing session: SessionEntry {
+  _chains: {
+    'BayIoDULbOUgh+LJgtJ2oIRfXHLpxAOWa0w5Dmh0UOhb': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 606466301,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 ac 88 a0 35 0b 6c e5 20 87 e2 c9 82 d2 76 a0 84 5f 5c 72 e9 c4 03 96 6b 4c 39 0e 68 74 50 e8 5b>,
+      privKey: <Buffer 98 f2 f9 17 6e 3c d5 2e 87 cf 7a 4b f5 70 7b 0a 78 eb 8a 8c 04 16 4d 79 a7 a4 29 42 3a e7 a1 70>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 69 8c 1c 2f 4b 6b 86 e3 7d 1b 54 a4 58 b6 35 0d 81 67 f2 ce 67 c5 2e c9 a9 d6 cf 39 d1 8c 3c 3b>,
+    previousCounter: 0,
+    rootKey: <Buffer 0c 63 07 ae 45 09 57 08 fc 20 85 c8 bf a3 5e 8f 0c d2 61 1e b0 99 82 31 2b 6c fc fe 42 9e 8e e5>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 d7 13 4f 5c be 2c 25 29 b8 b4 5e ab 93 a1 2b 35 22 4a d5 38 4a e3 ec ae 9f 81 52 c7 2d de b2 09>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1765319014964,
+    created: 1765319014964,
+    remoteIdentityKey: <Buffer 05 ff 19 42 e5 5d 1d 28 25 d7 a4 99 f7 33 7e b0 a3 00 90 ef 4a 6d 57 ff 59 4b 53 59 ca 1a 90 00 03>
+  },
+  pendingPreKey: {
+    signedKeyId: 11299889,
+    baseKey: <Buffer 05 d7 13 4f 5c be 2c 25 29 b8 b4 5e ab 93 a1 2b 35 22 4a d5 38 4a e3 ec ae 9f 81 52 c7 2d de b2 09>,
+    preKeyId: 801
+  }
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:35     LOG   [ChannelStartupService]  [string]  Update readed messages 2348164143260@s.whatsapp.net - 1765319014 
+Closing session: SessionEntry {
+  _chains: {
+    BRqUg2lvmGP97UYqoOVkiIhtUJDYDhbX0oNytSiDJKUJ: { chainKey: [Object], chainType: 2, messageKeys: {} },
+    'BW4KtHSOspLzJkH5RIu2ZePcfrCefmhhgWou+i2gNXpE': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 606466301,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 6e 0a b4 74 8e b2 92 f3 26 41 f9 44 8b b6 65 e3 dc 7e b0 9e 7e 68 61 81 6a 2e fa 2d a0 35 7a 44>,
+      privKey: <Buffer a0 10 2b 4b 02 4c 00 80 13 6d 04 ca af e9 9e a6 47 06 b4 86 11 fa 9a e6 34 3a 81 49 ca ed 3c 6f>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 1a 94 83 69 6f 98 63 fd ed 46 2a a0 e5 64 88 88 6d 50 90 d8 0e 16 d7 d2 83 72 b5 28 83 24 a5 09>,
+    previousCounter: 0,
+    rootKey: <Buffer a8 9e 1b 1b bc 75 dc ac d9 97 3b 52 a7 b3 e3 55 c3 40 33 8a 0d de e4 aa 4b 87 be 9d dc 48 3e 0d>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 73 ad 48 f5 35 dd 68 27 98 8a 94 62 7b d3 4a 6d 8b 05 a2 3d ee a7 ba e8 ea e6 18 1f aa 76 51 12>,
+    baseKeyType: 2,
+    closed: -1,
+    used: 1765319015180,
+    created: 1765319015180,
+    remoteIdentityKey: <Buffer 05 ff 19 42 e5 5d 1d 28 25 d7 a4 99 f7 33 7e b0 a3 00 90 ef 4a 6d 57 ff 59 4b 53 59 ca 1a 90 00 03>
+  }
+}
+{
+  key: {
+    remoteJid: '2348164143260@s.whatsapp.net',
+    remoteJidAlt: '201503339978753@lid',
+    fromMe: true,
+    id: '2AB57D12A7A5BEE8E9F9',
+    participant: '',
+    participantAlt: undefined,
+    addressingMode: 'pn'
+  },
+  pushName: 'Options Trading Uni',
+  status: 'SERVER_ACK',
+  message: { conversation: 'N' },
+  contextInfo: undefined,
+  messageType: 'conversation',
+  messageTimestamp: 1765319014,
+  instanceId: '2ed9d290-7206-4f53-8479-9c0051030a70',
+  source: 'unknown'
+}
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:35     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Erro não recuperável (404): Request failed with status code 404. Cancelando retentativas.',
+  statusCode: 404,
+  url: 'https://evolution-api-x1xv.onrender.com//messages-upsert',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:35     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Todas as tentativas falharam: Request failed with status code 404',
+  hostName: undefined,
+  syscall: undefined,
+  code: 'ERR_BAD_REQUEST',
+  error: undefined,
+  stack: 'AxiosError: Request failed with status code 404\n' +
+    '    at settle (/evolution/node_modules/axios/dist/node/axios.cjs:2106:12)\n' +
+    '    at BrotliDecompress.handleStreamEnd (/evolution/node_modules/axios/dist/node/axios.cjs:3491:11)\n' +
+    '    at BrotliDecompress.emit (node:events:508:28)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1701:12)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\n' +
+    '    at Axios.request (/evolution/node_modules/axios/dist/node/axios.cjs:4731:41)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+    '    at async _a.retryWebhookRequest (/evolution/dist/main.js:316:67644)\n' +
+    '    at async _a.emit (/evolution/dist/main.js:316:66455)\n' +
+    '    at async Oa.emit (/evolution/dist/main.js:316:72734)\n' +
+    '    at async sa.sendDataWebhook (/evolution/dist/main.js:174:17601)',
+  name: 'AxiosError',
+  url: 'https://evolution-api-x1xv.onrender.com//messages-upsert',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:35     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Erro não recuperável (404): Request failed with status code 404. Cancelando retentativas.',
+  statusCode: 404,
+  url: 'https://evolution-api-x1xv.onrender.com//contacts-update',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:35     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Todas as tentativas falharam: Request failed with status code 404',
+  hostName: undefined,
+  syscall: undefined,
+  code: 'ERR_BAD_REQUEST',
+  error: undefined,
+  stack: 'AxiosError: Request failed with status code 404\n' +
+    '    at settle (/evolution/node_modules/axios/dist/node/axios.cjs:2106:12)\n' +
+    '    at BrotliDecompress.handleStreamEnd (/evolution/node_modules/axios/dist/node/axios.cjs:3491:11)\n' +
+    '    at BrotliDecompress.emit (node:events:508:28)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1701:12)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\n' +
+    '    at Axios.request (/evolution/node_modules/axios/dist/node/axios.cjs:4731:41)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+    '    at async _a.retryWebhookRequest (/evolution/dist/main.js:316:67644)\n' +
+    '    at async _a.emit (/evolution/dist/main.js:316:66455)\n' +
+    '    at async Oa.emit (/evolution/dist/main.js:316:72734)\n' +
+    '    at async sa.sendDataWebhook (/evolution/dist/main.js:174:17601)',
+  name: 'AxiosError',
+  url: 'https://evolution-api-x1xv.onrender.com//contacts-update',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:35     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Erro não recuperável (404): Request failed with status code 404. Cancelando retentativas.',
+  statusCode: 404,
+  url: 'https://evolution-api-x1xv.onrender.com//chats-update',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:35     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Todas as tentativas falharam: Request failed with status code 404',
+  hostName: undefined,
+  syscall: undefined,
+  code: 'ERR_BAD_REQUEST',
+  error: undefined,
+  stack: 'AxiosError: Request failed with status code 404\n' +
+    '    at settle (/evolution/node_modules/axios/dist/node/axios.cjs:2106:12)\n' +
+    '    at BrotliDecompress.handleStreamEnd (/evolution/node_modules/axios/dist/node/axios.cjs:3491:11)\n' +
+    '    at BrotliDecompress.emit (node:events:508:28)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1701:12)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\n' +
+    '    at Axios.request (/evolution/node_modules/axios/dist/node/axios.cjs:4731:41)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+    '    at async _a.retryWebhookRequest (/evolution/dist/main.js:316:67644)\n' +
+    '    at async _a.emit (/evolution/dist/main.js:316:66455)\n' +
+    '    at async Oa.emit (/evolution/dist/main.js:316:72734)\n' +
+    '    at async sa.sendDataWebhook (/evolution/dist/main.js:174:17601)',
+  name: 'AxiosError',
+  url: 'https://evolution-api-x1xv.onrender.com//chats-update',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:35     LOG   [ChannelStartupService]  [string]  Update readed messages 2348164143260@s.whatsapp.net - 1765319015 
+{
+  key: {
+    remoteJid: '2348164143260@s.whatsapp.net',
+    remoteJidAlt: '201503339978753@lid',
+    fromMe: true,
+    id: '2A68438F562480DDCC25',
+    participant: '',
+    participantAlt: undefined,
+    addressingMode: 'pn'
+  },
+  pushName: 'Options Trading Uni',
+  status: 'SERVER_ACK',
+  message: { conversation: '/start' },
+  contextInfo: undefined,
+  messageType: 'conversation',
+  messageTimestamp: 1765319015,
+  instanceId: '2ed9d290-7206-4f53-8479-9c0051030a70',
+  source: 'unknown'
+}
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:35     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Erro não recuperável (404): Request failed with status code 404. Cancelando retentativas.',
+  statusCode: 404,
+  url: 'https://evolution-api-x1xv.onrender.com//messages-upsert',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:35     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Todas as tentativas falharam: Request failed with status code 404',
+  hostName: undefined,
+  syscall: undefined,
+  code: 'ERR_BAD_REQUEST',
+  error: undefined,
+  stack: 'AxiosError: Request failed with status code 404\n' +
+    '    at settle (/evolution/node_modules/axios/dist/node/axios.cjs:2106:12)\n' +
+    '    at BrotliDecompress.handleStreamEnd (/evolution/node_modules/axios/dist/node/axios.cjs:3491:11)\n' +
+    '    at BrotliDecompress.emit (node:events:508:28)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1701:12)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\n' +
+    '    at Axios.request (/evolution/node_modules/axios/dist/node/axios.cjs:4731:41)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+    '    at async _a.retryWebhookRequest (/evolution/dist/main.js:316:67644)\n' +
+    '    at async _a.emit (/evolution/dist/main.js:316:66455)\n' +
+    '    at async Oa.emit (/evolution/dist/main.js:316:72734)\n' +
+    '    at async sa.sendDataWebhook (/evolution/dist/main.js:174:17601)',
+  name: 'AxiosError',
+  url: 'https://evolution-api-x1xv.onrender.com//messages-upsert',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:36     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Erro não recuperável (404): Request failed with status code 404. Cancelando retentativas.',
+  statusCode: 404,
+  url: 'https://evolution-api-x1xv.onrender.com//contacts-update',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:36     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Todas as tentativas falharam: Request failed with status code 404',
+  hostName: undefined,
+  syscall: undefined,
+  code: 'ERR_BAD_REQUEST',
+  error: undefined,
+  stack: 'AxiosError: Request failed with status code 404\n' +
+    '    at settle (/evolution/node_modules/axios/dist/node/axios.cjs:2106:12)\n' +
+    '    at BrotliDecompress.handleStreamEnd (/evolution/node_modules/axios/dist/node/axios.cjs:3491:11)\n' +
+    '    at BrotliDecompress.emit (node:events:508:28)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1701:12)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\n' +
+    '    at Axios.request (/evolution/node_modules/axios/dist/node/axios.cjs:4731:41)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+    '    at async _a.retryWebhookRequest (/evolution/dist/main.js:316:67644)\n' +
+    '    at async _a.emit (/evolution/dist/main.js:316:66455)\n' +
+    '    at async Oa.emit (/evolution/dist/main.js:316:72734)\n' +
+    '    at async sa.sendDataWebhook (/evolution/dist/main.js:174:17601)',
+  name: 'AxiosError',
+  url: 'https://evolution-api-x1xv.onrender.com//contacts-update',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:36     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Erro não recuperável (404): Request failed with status code 404. Cancelando retentativas.',
+  statusCode: 404,
+  url: 'https://evolution-api-x1xv.onrender.com//chats-update',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:36     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Todas as tentativas falharam: Request failed with status code 404',
+  hostName: undefined,
+  syscall: undefined,
+  code: 'ERR_BAD_REQUEST',
+  error: undefined,
+  stack: 'AxiosError: Request failed with status code 404\n' +
+    '    at settle (/evolution/node_modules/axios/dist/node/axios.cjs:2106:12)\n' +
+    '    at BrotliDecompress.handleStreamEnd (/evolution/node_modules/axios/dist/node/axios.cjs:3491:11)\n' +
+    '    at BrotliDecompress.emit (node:events:508:28)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1701:12)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\n' +
+    '    at Axios.request (/evolution/node_modules/axios/dist/node/axios.cjs:4731:41)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+    '    at async _a.retryWebhookRequest (/evolution/dist/main.js:316:67644)\n' +
+    '    at async _a.emit (/evolution/dist/main.js:316:66455)\n' +
+    '    at async Oa.emit (/evolution/dist/main.js:316:72734)\n' +
+    '    at async sa.sendDataWebhook (/evolution/dist/main.js:174:17601)',
+  name: 'AxiosError',
+  url: 'https://evolution-api-x1xv.onrender.com//chats-update',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_3EB09E6C6541C5374793D4_0',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765319016
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:36     WARN   [ChannelStartupService]  [string]  Original message not found for update. Skipping. Key: {"remoteJid":"17086686326@s.whatsapp.net","fromMe":true,"id":"3EB09E6C6541C5374793D4"} 
+Closing session: SessionEntry {
+  _chains: {
+    'BYEiIKJ6JJ01rV26hLW0a/miFIkZTXY/dWalBrRNPfJR': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 606466301,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 81 22 20 a2 7a 24 9d 35 ad 5d ba 84 b5 b4 6b f9 a2 14 89 19 4d 76 3f 75 66 a5 06 b4 4d 3d f2 51>,
+      privKey: <Buffer 78 a3 a8 7a 61 eb 2b 9a d9 dc 4c ad 4b 40 ba 4d f6 e6 0b 15 43 bb f1 1a 9a 44 bb 04 cb 7c ed 5e>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 69 8c 1c 2f 4b 6b 86 e3 7d 1b 54 a4 58 b6 35 0d 81 67 f2 ce 67 c5 2e c9 a9 d6 cf 39 d1 8c 3c 3b>,
+    previousCounter: 0,
+    rootKey: <Buffer 14 11 53 6f 86 71 15 55 d8 6f d5 15 a9 90 9a 23 53 dc 4a 5a 16 3b 24 a6 9f 9d 53 e8 55 5a 95 08>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 0f c1 2e 97 97 ae ef 86 f3 2b 0b 64 1f 6c 6c 88 ad 86 b6 b5 f6 e3 1c 2b c6 0b 7b 72 11 35 2c 4b>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1765319015326,
+    created: 1765319015326,
+    remoteIdentityKey: <Buffer 05 ff 19 42 e5 5d 1d 28 25 d7 a4 99 f7 33 7e b0 a3 00 90 ef 4a 6d 57 ff 59 4b 53 59 ca 1a 90 00 03>
+  },
+  pendingPreKey: {
+    signedKeyId: 11299889,
+    baseKey: <Buffer 05 0f c1 2e 97 97 ae ef 86 f3 2b 0b 64 1f 6c 6c 88 ad 86 b6 b5 f6 e3 1c 2b c6 0b 7b 72 11 35 2c 4b>,
+    preKeyId: 729
+  }
+}
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_3EB07554FA9C900636F1DA_0',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765319017
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:37     WARN   [ChannelStartupService]  [string]  Original message not found for update. Skipping. Key: {"remoteJid":"17086686326@s.whatsapp.net","fromMe":true,"id":"3EB07554FA9C900636F1DA"} 
+Closing session: SessionEntry {
+  _chains: {
+    BQRWVesyZpItgB0BsVQNaslikkPIiR4NElyXbw1FyX19: { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 606466301,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 04 56 55 eb 32 66 92 2d 80 1d 01 b1 54 0d 6a c9 62 92 43 c8 89 1e 0d 12 5c 97 6f 0d 45 c9 7d 7d>,
+      privKey: <Buffer 68 98 bd e3 7d a0 89 e6 2c 66 e0 49 ac d9 8a 7f 8a f7 1a 5d 67 b6 9a 70 37 fa d4 09 71 00 11 58>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 69 8c 1c 2f 4b 6b 86 e3 7d 1b 54 a4 58 b6 35 0d 81 67 f2 ce 67 c5 2e c9 a9 d6 cf 39 d1 8c 3c 3b>,
+    previousCounter: 0,
+    rootKey: <Buffer ac 78 af ae fd b1 30 95 21 84 64 60 fa 34 da 1a 47 a7 ad 1e 83 ae aa 3f 18 e0 9a f7 1b 2a df 70>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 1f 63 1d a4 9c 69 72 ee 59 f9 32 4e 73 c3 06 3a 9c b3 68 ec 13 f2 f5 0b 60 e7 f1 f6 52 d9 89 44>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1765319017104,
+    created: 1765319017104,
+    remoteIdentityKey: <Buffer 05 ff 19 42 e5 5d 1d 28 25 d7 a4 99 f7 33 7e b0 a3 00 90 ef 4a 6d 57 ff 59 4b 53 59 ca 1a 90 00 03>
+  },
+  pendingPreKey: {
+    signedKeyId: 11299889,
+    baseKey: <Buffer 05 1f 63 1d a4 9c 69 72 ee 59 f9 32 4e 73 c3 06 3a 9c b3 68 ec 13 f2 f5 0b 60 e7 f1 f6 52 d9 89 44>,
+    preKeyId: 2
+  }
+}
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_3EB0BF8DE9727E4C988A33_0',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765319017
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:37     WARN   [ChannelStartupService]  [string]  Original message not found for update. Skipping. Key: {"remoteJid":"17086686326@s.whatsapp.net","fromMe":true,"id":"3EB0BF8DE9727E4C988A33"} 
+Decrypted message with closed session.
+Closing session: SessionEntry {
+  _chains: {
+    'BZ2MiW1yIkF8dAsTPDVzOLDlPP+ww/E1Ucr/UVgi9gpr': { chainKey: [Object], chainType: 2, messageKeys: {} },
+    'BcXEiBw5TCwI7186i/LMkoG6q3jNnqVOISD8VGz6ekZK': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 606466301,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 c5 c4 88 1c 39 4c 2c 08 ef 5f 3a 8b f2 cc 92 81 ba ab 78 cd 9e a5 4e 21 20 fc 54 6c fa 7a 46 4a>,
+      privKey: <Buffer d0 95 22 cb 26 e4 47 db 1b 94 12 a3 7a ed 15 8a a4 34 49 8f 74 02 e1 ff ca 54 ec 21 81 9c c8 4c>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 9d 8c 89 6d 72 22 41 7c 74 0b 13 3c 35 73 38 b0 e5 3c ff b0 c3 f1 35 51 ca ff 51 58 22 f6 0a 6b>,
+    previousCounter: 0,
+    rootKey: <Buffer 89 74 96 87 cf 00 dc 0c 21 4f f6 bf 0f 24 57 c2 e4 b5 0d ad 3b d4 87 4c 3f c5 b4 b0 ee 53 c9 e7>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 d2 cf 4e fb 09 87 6d d1 cb 18 ae 89 8d 57 0f f5 ce 65 3e b6 e0 5f 3e 4d 69 b8 f6 cd dc e0 71 6c>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1765319017458,
+    created: 1765319017458,
+    remoteIdentityKey: <Buffer 05 ff 19 42 e5 5d 1d 28 25 d7 a4 99 f7 33 7e b0 a3 00 90 ef 4a 6d 57 ff 59 4b 53 59 ca 1a 90 00 03>
+  },
+  pendingPreKey: {
+    signedKeyId: 11299889,
+    baseKey: <Buffer 05 d2 cf 4e fb 09 87 6d d1 cb 18 ae 89 8d 57 0f f5 ce 65 3e b6 e0 5f 3e 4d 69 b8 f6 cd dc e0 71 6c>,
+    preKeyId: 733
+  }
+}
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_3EB0AF6EC3D2E0422FF249_0',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765319017
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:38     WARN   [ChannelStartupService]  [string]  Original message not found for update. Skipping. Key: {"remoteJid":"17086686326@s.whatsapp.net","fromMe":true,"id":"3EB0AF6EC3D2E0422FF249"} 
+Closing session: SessionEntry {
+  _chains: {
+    'BbOSQdQ6AkhHD3DuDDSKYvE+SPVGpNJhMGXYyWWuQcIa': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 606466301,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 b3 92 41 d4 3a 02 48 47 0f 70 ee 0c 34 8a 62 f1 3e 48 f5 46 a4 d2 61 30 65 d8 c9 65 ae 41 c2 1a>,
+      privKey: <Buffer 98 58 87 75 be b4 b0 e6 29 5f 83 a0 3e 3a f3 aa 4c 6d b6 fa 52 4c 74 85 fb 75 bc 79 ec 71 5a 7d>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 69 8c 1c 2f 4b 6b 86 e3 7d 1b 54 a4 58 b6 35 0d 81 67 f2 ce 67 c5 2e c9 a9 d6 cf 39 d1 8c 3c 3b>,
+    previousCounter: 0,
+    rootKey: <Buffer 63 74 49 db df 99 30 2a e4 6d 71 eb 92 23 a0 e2 8d f1 b7 39 ea 30 19 18 13 70 fb 47 76 2b 31 d8>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 b2 ac 47 45 1e 0d 6a b1 9a 3a 9d bb 96 90 19 88 14 b6 e2 61 94 d8 36 dc 75 cb e8 54 2e f0 6f 64>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1765319017828,
+    created: 1765319017828,
+    remoteIdentityKey: <Buffer 05 ff 19 42 e5 5d 1d 28 25 d7 a4 99 f7 33 7e b0 a3 00 90 ef 4a 6d 57 ff 59 4b 53 59 ca 1a 90 00 03>
+  },
+  pendingPreKey: {
+    signedKeyId: 11299889,
+    baseKey: <Buffer 05 b2 ac 47 45 1e 0d 6a b1 9a 3a 9d bb 96 90 19 88 14 b6 e2 61 94 d8 36 dc 75 cb e8 54 2e f0 6f 64>,
+    preKeyId: 56
+  }
+}
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_3EB0F4EF2296AC4E420FD4_0',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765319018
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:38     WARN   [ChannelStartupService]  [string]  Original message not found for update. Skipping. Key: {"remoteJid":"17086686326@s.whatsapp.net","fromMe":true,"id":"3EB0F4EF2296AC4E420FD4"} 
+Message received from phone, id= 3EB0914BDB38C0050AFEDD WebMessageInfo {
+  messageStubParameters: [],
+  labels: [],
+  userReceipt: [],
+  reactions: [],
+  pollUpdates: [],
+  eventResponses: [],
+  statusMentions: [],
+  messageAddOns: [],
+  statusMentionSources: [],
+  supportAiCitations: [],
+  key: MessageKey {
+    remoteJid: '2348164143260@s.whatsapp.net',
+    fromMe: false,
+    id: '3AE6F3402492A836666C'
+  },
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      endCardTiles: [],
+      text: '/start',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo { threadId: [], messageSecret: [Uint8Array] }
+  },
+  messageTimestamp: Long { low: 1765315644, high: 0, unsigned: true },
+  messageSecret: Uint8Array(32) [
+     13,  83, 181, 105, 233, 225, 255,   2,
+      7,  18, 183, 240,  17, 107, 103, 163,
+     52, 225, 189,  95, 209,  87, 114,   0,
+    223, 199, 122,  21,  57, 171, 136, 235
+  ],
+  reportingTokenInfo: ReportingTokenInfo {
+    reportingTag: Uint8Array(20) [
+        1,  13, 159,  18,  94, 230,
+      244, 111, 142, 144,  30,  76,
+       33,  27,  32, 128, 180,   7,
+      159, 191
+    ]
+  }
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Tue Dec 09 2025 19:23:38     LOG   [ChannelStartupService]  [string]  Update not read messages 2348164143260@s.whatsapp.net 
+{
+  key: MessageKey {
+    remoteJid: '2348164143260@s.whatsapp.net',
+    fromMe: false,
+    id: '3AE6F3402492A836666C'
+  },
+  pushName: null,
+  status: 'DELIVERY_ACK',
+  message: {
+    messageContextInfo: { threadId: [], messageSecret: [Uint8Array] },
+    conversation: '/start'
+  },
+  contextInfo: {
+    mentionedJid: [],
+    groupMentions: [],
+    statusAttributions: [],
+    expiration: 0,
+    ephemeralSettingTimestamp: { low: 1765126841, high: 0, unsigned: false }
+  },
+  messageType: 'conversation',
+  messageTimestamp: 1765315644,
+  instanceId: '2ed9d290-7206-4f53-8479-9c0051030a70',
+  source: 'ios'
+}
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:38     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Erro não recuperável (404): Request failed with status code 404. Cancelando retentativas.',
+  statusCode: 404,
+  url: 'https://evolution-api-x1xv.onrender.com//messages-upsert',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:38     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Todas as tentativas falharam: Request failed with status code 404',
+  hostName: undefined,
+  syscall: undefined,
+  code: 'ERR_BAD_REQUEST',
+  error: undefined,
+  stack: 'AxiosError: Request failed with status code 404\n' +
+    '    at settle (/evolution/node_modules/axios/dist/node/axios.cjs:2106:12)\n' +
+    '    at BrotliDecompress.handleStreamEnd (/evolution/node_modules/axios/dist/node/axios.cjs:3491:11)\n' +
+    '    at BrotliDecompress.emit (node:events:508:28)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1701:12)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\n' +
+    '    at Axios.request (/evolution/node_modules/axios/dist/node/axios.cjs:4731:41)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+    '    at async _a.retryWebhookRequest (/evolution/dist/main.js:316:67644)\n' +
+    '    at async _a.emit (/evolution/dist/main.js:316:66455)\n' +
+    '    at async Oa.emit (/evolution/dist/main.js:316:72734)\n' +
+    '    at async sa.sendDataWebhook (/evolution/dist/main.js:174:17601)',
+  name: 'AxiosError',
+  url: 'https://evolution-api-x1xv.onrender.com//messages-upsert',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:38     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Erro não recuperável (404): Request failed with status code 404. Cancelando retentativas.',
+  statusCode: 404,
+  url: 'https://evolution-api-x1xv.onrender.com//contacts-update',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+[Evolution API]    v2.3.7  114   -  Tue Dec 09 2025 19:23:38     ERROR   [WebhookController]  [object]   
+{
+  local: 'ChannelStartupService.sendData-Webhook',
+  message: 'Todas as tentativas falharam: Request failed with status code 404',
+  hostName: undefined,
+  syscall: undefined,
+  code: 'ERR_BAD_REQUEST',
+  error: undefined,
+  stack: 'AxiosError: Request failed with status code 404\n' +
+    '    at settle (/evolution/node_modules/axios/dist/node/axios.cjs:2106:12)\n' +
+    '    at BrotliDecompress.handleStreamEnd (/evolution/node_modules/axios/dist/node/axios.cjs:3491:11)\n' +
+    '    at BrotliDecompress.emit (node:events:508:28)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1701:12)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\n' +
+    '    at Axios.request (/evolution/node_modules/axios/dist/node/axios.cjs:4731:41)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+    '    at async _a.retryWebhookRequest (/evolution/dist/main.js:316:67644)\n' +
+    '    at async _a.emit (/evolution/dist/main.js:316:66455)\n' +
+    '    at async Oa.emit (/evolution/dist/main.js:316:72734)\n' +
+    '    at async sa.sendDataWebhook (/evolution/dist/main.js:174:17601)',
+  name: 'AxiosError',
+  url: 'https://evolution-api-x1xv.onrender.com//contacts-update',
+  server_url: 'https://evolution-api-x1xv.onrender.com/whatsapp/webhook/evolution'
+} 
+Need
