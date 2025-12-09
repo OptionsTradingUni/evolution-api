@@ -1,0 +1,44 @@
+[Evolution API]    v2.3.7  113   -  Tue Dec 09 2025 18:57:56     INFO   [WA MODULE]  [string]  Module - ON 
+[Evolution API]    v2.3.7  113   -  Tue Dec 09 2025 18:57:59     INFO   [PrismaRepository]  [string]  Repository:Prisma - ON 
+[Evolution API]    v2.3.7  113   -  Tue Dec 09 2025 18:57:59     LOG   [SERVER]  [string]  HTTP - ON: 8080 
+[Evolution API]    v2.3.7  113   -  Tue Dec 09 2025 18:57:59     ERROR   [unhandledRejection]  [object]   
+{
+  origin: Promise {
+    <rejected> TypeError: Cannot read properties of undefined (reading 'get')
+        at new BaileysStartupService (/evolution/dist/main.js:245:22602)
+        at ia.init (/evolution/dist/main.js:315:5663)
+        at Da.setInstance (/evolution/dist/main.js:316:79962)
+        at /evolution/dist/main.js:316:81349
+        at Array.map (<anonymous>)
+        at Da.loadInstancesFromDatabasePostgres (/evolution/dist/main.js:316:81330)
+        at async Da.loadInstance (/evolution/dist/main.js:316:79157)
+        at async initWA (/evolution/dist/main.js:318:2555)
+  },
+  stderr: 2
+} 
+[Evolution API]    v2.3.7  113   -  Tue Dec 09 2025 18:57:59     ERROR   [unhandledRejection]  [object]   
+TypeError: Cannot read properties of undefined (reading 'get')
+    at new BaileysStartupService (/evolution/dist/main.js:245:22602)
+    at ia.init (/evolution/dist/main.js:315:5663)
+    at Da.setInstance (/evolution/dist/main.js:316:79962)
+    at /evolution/dist/main.js:316:81349
+    at Array.map (<anonymous>)
+    at Da.loadInstancesFromDatabasePostgres (/evolution/dist/main.js:316:81330)
+    at async Da.loadInstance (/evolution/dist/main.js:316:79157)
+    at async initWA (/evolution/dist/main.js:318:2555) 
+==> New primary port detected: 8080. Restarting deploy to update network configuration...
+==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+npm error path /evolution
+npm error command failed
+npm error signal SIGTERM
+npm error command sh -c node dist/main
+npm error A complete log of this run can be found in: /root/.npm/_logs/2025-12-09T21_57_35_254Z-debug-0.log
+> evolution-api@2.3.7 db:deploy
+> node runWithProvider.js "rm -rf ./prisma/migrations && cp -r ./prisma/DATABASE_PROVIDER-migrations ./prisma/migrations && npx prisma migrate deploy --schema ./prisma/DATABASE_PROVIDER-schema.prisma"
+Prisma schema loaded from prisma/postgresql-schema.prisma
+Datasource "db": PostgreSQL database "evolution_api_qre1", schema "public" at "dpg-d4s4h6vpm1nc7385feh0-a.oregon-postgres.render.com"
+57 migrations found in prisma/migrations
+No pending migrations to apply.
+> evolution-api@2.3.7 start:prod
+> node dist/main
+Need better wa
