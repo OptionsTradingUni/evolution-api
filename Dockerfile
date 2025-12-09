@@ -38,20 +38,3 @@ COPY --from=builder /evolution/tsup.config.ts ./tsup.config.ts
 ENV DOCKER_ENV=true
 EXPOSE 8080
 ENTRYPOINT ["/bin/bash", "-c", "npm run db:deploy && npm run start:prod"]
-```
-
-## What I removed:
-- Line that says: `COPY --from=builder /evolution/.env ./.env`
-
-This way, the app will use the environment variables from Render instead of the `.env` file.
-
-## After updating:
-1. Replace your Dockerfile with this
-2. Commit and push
-3. Make sure these environment variables are set in Render:
-```
-   DATABASE_URL=postgresql://evolution_api_owgi_user:5CJg2red6cZ2XUz8AVI616tTiecKjSFb@dpg-d4s32r95pdvs73buj15g-a.oregon-postgres.render.com:5432/evolution_api_owgi
-   DATABASE_PROVIDER=postgresql
-
-
-   
