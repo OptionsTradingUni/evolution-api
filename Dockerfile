@@ -37,4 +37,4 @@ COPY --from=builder /evolution/runWithProvider.js ./runWithProvider.js
 COPY --from=builder /evolution/tsup.config.ts ./tsup.config.ts
 ENV DOCKER_ENV=true
 EXPOSE 8080
-ENTRYPOINT ["/bin/bash", "-c", "npm run db:deploy && npm run start:prod"]
+CMD ["/bin/sh", "-c", "npm run db:deploy && npm run start:prod"]
