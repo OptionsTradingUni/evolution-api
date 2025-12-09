@@ -90,12 +90,13 @@ export class WebhookController extends EventController implements EventControlle
     const enabledLog = configService.get<Log>('LOG').LEVEL.includes('WEBHOOKS');
     const regex = /^(https?:\/\/)/;
 
+    const globalUrlNormalized = webhookConfig.GLOBAL?.URL?.replace(/\/+$/, '') || '';
     const webhookData = {
       ...(extra ?? {}),
       event,
       instance: instanceName,
       data,
-      destination: instance?.url || `${webhookConfig.GLOBAL.URL}/${transformedWe}`,
+      destination: instance?.url?.replace(/\/+$/, '') || `${globalUrlNormalized}/${transformedWe}`,
       date_time: dateTime,
       sender,
       server_url: serverUrl,
@@ -105,11 +106,12 @@ export class WebhookController extends EventController implements EventControlle
     if (local && instance?.enabled) {
       if (Array.isArray(webhookLocal) && webhookLocal.includes(we)) {
         let baseURL: string;
+        const instanceUrl = instance?.url?.replace(/\/+$/, '') || '';
 
         if (instance?.webhookByEvents) {
-          baseURL = `${instance?.url}/${transformedWe}`;
+          baseURL = `${instanceUrl}/${transformedWe}`;
         } else {
-          baseURL = instance?.url;
+          baseURL = instanceUrl;
         }
 
         if (enabledLog) {
@@ -151,7 +153,7 @@ export class WebhookController extends EventController implements EventControlle
 
     if (webhookConfig.GLOBAL?.ENABLED) {
       if (webhookConfig.EVENTS[we]) {
-        let globalURL = webhookConfig.GLOBAL.URL;
+        let globalURL = webhookConfig.GLOBAL.URL?.replace(/\/+$/, '') || '';
 
         if (webhookConfig.GLOBAL.WEBHOOK_BY_EVENTS) {
           globalURL = `${globalURL}/${transformedWe}`;
