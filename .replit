@@ -34,7 +34,7 @@ LOG_LEVEL = "ERROR,WARN,DEBUG,INFO,LOG"
 LOG_COLOR = "true"
 LOG_BAILEYS = "error"
 TELEMETRY_ENABLED = "false"
-DATABASE_BOUNCER_CONNECTION_URI = "postgresql://postgres.lcimzibxxadeeaxtvgdo:Youngchris2005$@aws-1-eu-west-1.pooler.supabase.com:6543/postgres"
+DATABASE_BOUNCER_CONNECTION_URI = "postgresql://postgres.lcimzibxxadeeaxtvgdo:Youngchris2005$@aws-1-eu-west-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
 
 [workflows]
 runButton = "Project"
@@ -79,6 +79,10 @@ externalPort = 3000
 [[ports]]
 localPort = 42359
 externalPort = 3001
+
+[[ports]]
+localPort = 45209
+externalPort = 5000
 
 [[ports]]
 localPort = 45505

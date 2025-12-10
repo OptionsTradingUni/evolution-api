@@ -251,6 +251,12 @@ export class BaileysStartupService extends ChannelStartupService {
   private endSession = false;
   private _logBaileys: string | undefined;
   private eventProcessingQueue: Promise<void> = Promise.resolve();
+  
+  // Conflict detection to prevent reconnection loops
+  private conflictCount = 0;
+  private lastConflictTime = 0;
+  private readonly CONFLICT_RESET_INTERVAL_MS = 60000; // Reset counter after 1 minute of no conflicts
+  private readonly MAX_CONFLICTS_BEFORE_STOP = 5; // Stop reconnecting after 5 conflicts in a row
 
   private get logBaileys(): string {
     if (this._logBaileys === undefined) {
@@ -433,6 +439,45 @@ export class BaileysStartupService extends ChannelStartupService {
     if (connection === 'close') {
       const statusCode = (lastDisconnect?.error as Boom)?.output?.statusCode;
       const codesToNotReconnect = [DisconnectReason.loggedOut, DisconnectReason.forbidden, 402, 406];
+      
+      // Detect conflict errors (session replaced by another device/instance)
+      const errorMessage = (lastDisconnect?.error as Error)?.message || '';
+      const isConflictError = errorMessage.includes('conflict') || 
+                              statusCode === DisconnectReason.connectionReplaced ||
+                              JSON.stringify(lastDisconnect).includes('"type":"replaced"');
+      
+      if (isConflictError) {
+        const now = Date.now();
+        // Reset conflict counter if enough time has passed
+        if (now - this.lastConflictTime > this.CONFLICT_RESET_INTERVAL_MS) {
+          this.conflictCount = 0;
+        }
+        this.conflictCount++;
+        this.lastConflictTime = now;
+        
+        this.logger.warn(`Connection conflict detected (${this.conflictCount}/${this.MAX_CONFLICTS_BEFORE_STOP}). Another device may be connected with this account.`);
+        
+        if (this.conflictCount >= this.MAX_CONFLICTS_BEFORE_STOP) {
+          this.logger.error('Too many connection conflicts. Stopping reconnection to prevent loop. Please check for duplicate instances or other connected devices.');
+          // Add to codesToNotReconnect behavior - don't reconnect
+          this.sendDataWebhook(Events.STATUS_INSTANCE, {
+            instance: this.instance.name,
+            status: 'conflict_stopped',
+            message: 'Reconnection stopped due to repeated conflicts. Check for duplicate instances.',
+            disconnectionAt: new Date(),
+          });
+          return;
+        }
+        
+        // Add exponential delay before reconnecting to avoid rapid reconnection loop
+        const delayMs = Math.min(1000 * Math.pow(2, this.conflictCount - 1), 30000);
+        this.logger.info(`Waiting ${delayMs}ms before reconnecting due to conflict...`);
+        await delay(delayMs);
+      } else {
+        // Reset conflict counter on non-conflict disconnections
+        this.conflictCount = 0;
+      }
+      
       const shouldReconnect = !codesToNotReconnect.includes(statusCode);
       if (shouldReconnect) {
         await this.connectToWhatsapp(this.phoneNumber);
@@ -472,6 +517,9 @@ export class BaileysStartupService extends ChannelStartupService {
     }
 
     if (connection === 'open') {
+      // Reset conflict counter on successful connection
+      this.conflictCount = 0;
+      
       this.instance.wuid = this.client.user.id.replace(/:\d+/, '');
       try {
         const profilePic = await this.profilePicture(this.instance.wuid);
