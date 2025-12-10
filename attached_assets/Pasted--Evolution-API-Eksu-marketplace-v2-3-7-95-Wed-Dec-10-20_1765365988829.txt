@@ -1,0 +1,630 @@
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:30     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365451437,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:31     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:31     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:31     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:32     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:32     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365453183,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:33     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:33     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:33     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+{"level":50,"time":1765365455213,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:35     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:35     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:35     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:36     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:36     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365457794,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:37     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:37     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:37     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:38     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:38     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365462280,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:42     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:42     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:42     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:43     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:43     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365463706,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:43     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:44     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:44     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+{"level":50,"time":1765365464707,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","uploadError":"Error: Connection Closed","count":5,"msg":"Failed to upload pre-keys to server"}
+{"level":50,"time":1765365465560,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:45     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:45     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:45     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:46     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:46     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365467975,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:48     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:48     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:48     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+{"level":50,"time":1765365470277,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:50     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:50     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:50     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+{"level":50,"time":1765365472168,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","uploadError":"Error: Connection Closed","count":5,"msg":"Failed to upload pre-keys to server"}
+{"level":50,"time":1765365472286,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:52     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:52     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:52     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+{"level":50,"time":1765365473773,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:54     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:54     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_3EB0A27C9EE945A2068031_2',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765365474
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:54     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:54     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:54     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:55     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:55     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:55     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:55     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365476234,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:56     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:56     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:56     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:57     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:57     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:57     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:57     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365478141,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:58     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:58     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:17:58     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+{"level":50,"time":1765365480727,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:00     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:00     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:00     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:03     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:03     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365483873,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:03     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:04     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:04     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:04     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:04     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:05     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:05     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365485837,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:05     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:05     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:05     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:07     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:07     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365487462,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:07     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:07     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:07     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+{"level":50,"time":1765365489668,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:09     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:09     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:09     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:11     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:11     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365492061,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:12     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:12     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:12     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:13     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:13     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365494043,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:14     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:14     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:14     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:14     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:14     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:15     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:15     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:15     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:16     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:16     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365496267,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","uploadError":"Error: Connection Closed","count":5,"msg":"Failed to upload pre-keys to server"}
+{"level":50,"time":1765365496507,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:16     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:16     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:16     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+{"level":50,"time":1765365498321,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:18     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:18     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:18     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:19     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:19     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:19     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:19     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365499847,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:19     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:20     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:20     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+{"level":50,"time":1765365501743,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","error":{"data":null,"isBoom":true,"isServer":false,"output":{"statusCode":408,"payload":{"statusCode":408,"error":"Request Time-out","message":"Pre-key upload timeout"},"headers":{}}},"msg":"Failed to check/upload pre-keys during initialization"}
+{"level":50,"time":1765365502100,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:22     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:22     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:22     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:22     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:22     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:23     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:23     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365505199,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:25     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:25     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:25     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+{"level":50,"time":1765365505629,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","uploadError":"Error: Connection Closed","count":5,"msg":"Failed to upload pre-keys to server"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:26     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:26     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365506963,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:27     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:27     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:27     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:28     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:28     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365508300,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","err":{"type":"TypeError","message":"Cannot destructure property 'content' of '(intermediate value)' as it is undefined.","stack":"TypeError: Cannot destructure property 'content' of '(intermediate value)' as it is undefined.\n    at fetchPrivacySettings (file:///evolution/node_modules/baileys/lib/Socket/chats.js:39:21)\n    at async Promise.all (index 2)\n    at async executeInitQueries (file:///evolution/node_modules/baileys/lib/Socket/chats.js:787:9)"},"msg":"unexpected error in 'init queries'"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:28     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:28     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365508840,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:28     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:29     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:29     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+{"level":50,"time":1765365510265,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","error":{"data":null,"isBoom":true,"isServer":false,"output":{"statusCode":408,"payload":{"statusCode":408,"error":"Request Time-out","message":"Pre-key upload timeout"},"headers":{}}},"msg":"Failed to check/upload pre-keys during initialization"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:30     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:30     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365511165,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:31     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:31     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:31     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:32     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:32     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365513397,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:33     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:33     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:33     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:34     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:34     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365515046,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:35     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:35     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:35     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:35     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:35     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+{"level":50,"time":1765365516583,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:36     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:36     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:36     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:37     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:37     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365518054,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:38     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:38     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:38     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:39     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:39     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365519888,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:39     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:40     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:40     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:41     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:41     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365522073,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:42     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:42     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:42     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:43     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:43     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365524284,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:44     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:44     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:44     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:45     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:45     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:45     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:45     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365526374,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:46     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:46     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:46     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:47     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:47     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365527999,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","error":{"data":null,"isBoom":true,"isServer":false,"output":{"statusCode":408,"payload":{"statusCode":408,"error":"Request Time-out","message":"Pre-key upload timeout"},"headers":{}}},"msg":"Failed to check/upload pre-keys during initialization"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:48     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:48     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365528736,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:48     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:48     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:48     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+{"level":50,"time":1765365530192,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","uploadError":"Error: Connection Closed","count":5,"msg":"Failed to upload pre-keys to server"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:50     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:50     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365530419,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:50     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:50     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:50     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+{"level":50,"time":1765365531735,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","error":{"data":null,"isBoom":true,"isServer":false,"output":{"statusCode":408,"payload":{"statusCode":408,"error":"Request Time-out","message":"Pre-key upload timeout"},"headers":{}}},"msg":"Failed to check/upload pre-keys during initialization"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:51     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:51     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:51     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:51     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365532061,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:52     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:52     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:52     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+{"level":50,"time":1765365533665,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","err":{"type":"TypeError","message":"Cannot destructure property 'content' of '(intermediate value)' as it is undefined.","stack":"TypeError: Cannot destructure property 'content' of '(intermediate value)' as it is undefined.\n    at fetchPrivacySettings (file:///evolution/node_modules/baileys/lib/Socket/chats.js:39:21)\n    at async Promise.all (index 2)\n    at async executeInitQueries (file:///evolution/node_modules/baileys/lib/Socket/chats.js:787:9)"},"msg":"unexpected error in 'init queries'"}
+{"level":50,"time":1765365534139,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:54     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:54     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:54     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_3EB0A27C9EE945A2068031_3',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765365535
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:55     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:55     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_3EB04A8195E0AC5B1D1B5D_3',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765365535
+}
+{"level":50,"time":1765365535548,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:55     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:55     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:55     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:55     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:55     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+{"level":50,"time":1765365537291,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:57     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:57     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:57     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:57     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:18:57     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+{"level":50,"time":1765365540158,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:00     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:00     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:00     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:01     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:01     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365542281,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:02     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:02     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:02     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+{"level":50,"time":1765365544575,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:04     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:04     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:04     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:06     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:06     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365546556,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:06     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:06     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:06     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+{"level":50,"time":1765365549007,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:09     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:09     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:09     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+{"level":50,"time":1765365550066,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","uploadError":"Error: Connection Closed","count":5,"msg":"Failed to upload pre-keys to server"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:11     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:11     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365551752,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:11     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:11     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:11     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:13     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:13     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365553649,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:13     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:13     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:13     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:15     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:15     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"time":1765365555552,"pid":95,"hostname":"srv-d4s2gabuibrs73col5d0-hibernate-5b4cf5fb79-7sznh","reasonNode":{"tag":"conflict","attrs":{"type":"replaced"}},"fullErrorNode":{"tag":"stream:error","attrs":{},"content":[{"tag":"conflict","attrs":{"type":"replaced"}}]},"msg":"stream errored out"}
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:15     INFO   [ChannelStartupService]  [string]  Browser: Evolution API,Chrome,6.8.0-1043-aws 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:15     INFO   [ChannelStartupService]  [string]  Baileys version: 2.3000.1030878769 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:15     INFO   [ChannelStartupService]  [string]  Group Ignore: true 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:17     INFO   [ChannelStartupService]  [string]  
+  ┌──────────────────────────────┐
+  │    CONNECTED TO WHATSAPP     │
+  └──────────────────────────────┘ 
+[Evolution API]  [Eksu marketplace]  v2.3.7  95   -  Wed Dec 10 2025 08:19:17     INFO   [ChannelStartupService]  [string]  
+        wuid: 17086686326                   
+        name: Eksu marketplace
+       
+{"level":50,"t
