@@ -29,6 +29,19 @@ export class EvolutionRouter extends RouterBroker {
 
     this.router.post(this.routerPath('api/whatsapp/webhook/evolution', false), webhookHandler);
     this.router.get(this.routerPath('api/whatsapp/webhook/evolution', false), webhookVerifyHandler);
+
+    // Handle dynamic event types (e.g., /connection-update, /messages-upsert, etc.)
+    this.router.post(this.routerPath('webhook/evolution/:eventType', false), webhookHandler);
+    this.router.get(this.routerPath('webhook/evolution/:eventType', false), webhookVerifyHandler);
+
+    this.router.post(this.routerPath('whatsapp/webhook/evolution/:eventType', false), webhookHandler);
+    this.router.get(this.routerPath('whatsapp/webhook/evolution/:eventType', false), webhookVerifyHandler);
+
+    this.router.post(this.routerPath('api/webhook/evolution/:eventType', false), webhookHandler);
+    this.router.get(this.routerPath('api/webhook/evolution/:eventType', false), webhookVerifyHandler);
+
+    this.router.post(this.routerPath('api/whatsapp/webhook/evolution/:eventType', false), webhookHandler);
+    this.router.get(this.routerPath('api/whatsapp/webhook/evolution/:eventType', false), webhookVerifyHandler);
   }
 
   public readonly router: Router = Router();
