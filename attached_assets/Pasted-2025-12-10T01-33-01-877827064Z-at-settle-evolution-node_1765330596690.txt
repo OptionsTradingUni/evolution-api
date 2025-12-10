@@ -1,0 +1,50 @@
+2025-12-10T01:33:01.877827064Z     '    at settle (/evolution/node_modules/axios/dist/node/axios.cjs:2106:12)\n' +
+2025-12-10T01:33:01.877830255Z     '    at BrotliDecompress.handleStreamEnd (/evolution/node_modules/axios/dist/node/axios.cjs:3491:11)\n' +
+2025-12-10T01:33:01.877832815Z     '    at BrotliDecompress.emit (node:events:508:28)\n' +
+2025-12-10T01:33:01.877835695Z     '    at endReadableNT (node:internal/streams/readable:1701:12)\n' +
+2025-12-10T01:33:01.877838965Z     '    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\n' +
+2025-12-10T01:33:01.877841655Z     '    at Axios.request (/evolution/node_modules/axios/dist/node/axios.cjs:4731:41)\n' +
+2025-12-10T01:33:01.877844615Z     '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+2025-12-10T01:33:01.877847235Z     '    at async _a.retryWebhookRequest (/evolution/dist/main.js:316:67740)\n' +
+2025-12-10T01:33:01.877850005Z     '    at async _a.emit (/evolution/dist/main.js:316:66527)\n' +
+2025-12-10T01:33:01.877853165Z     '    at async Oa.emit (/evolution/dist/main.js:316:72830)\n' +
+2025-12-10T01:33:01.877856165Z     '    at async sa.sendDataWebhook (/evolution/dist/main.js:174:17601)',
+2025-12-10T01:33:01.877858885Z   name: 'AxiosError',
+2025-12-10T01:33:01.877861595Z   url: 'https://eksuplug.com.ng/api/whatsapp/webhook/evolution/connection-update',
+2025-12-10T01:33:01.877864475Z   server_url: 'https://evolution-api-x1xv.onrender.com'
+2025-12-10T01:33:01.877867315Z } 
+2025-12-10T01:33:01.877869795Z 
+2025-12-10T01:33:01.907424358Z [Evolution API]    v2.3.7  113   -  Tue Dec 09 2025 22:33:01     ERROR   [WebhookController]  [object]   
+2025-12-10T01:33:01.907460089Z {
+2025-12-10T01:33:01.907463959Z   local: 'ChannelStartupService.sendData-Webhook-Global',
+2025-12-10T01:33:01.907467449Z   message: 'Erro não recuperável (404): Request failed with status code 404. Cancelando retentativas.',
+2025-12-10T01:33:01.907470469Z   statusCode: 404,
+2025-12-10T01:33:01.907473409Z   url: 'https://eksuplug.com.ng/api/whatsapp/webhook/evolution/connection-update',
+2025-12-10T01:33:01.907476159Z   server_url: 'https://evolution-api-x1xv.onrender.com'
+2025-12-10T01:33:01.907478409Z } 
+2025-12-10T01:33:01.907480399Z 
+2025-12-10T01:33:01.90752661Z [Evolution API]    v2.3.7  113   -  Tue Dec 09 2025 22:33:01     ERROR   [WebhookController]  [object]   
+2025-12-10T01:33:01.907622042Z {
+2025-12-10T01:33:01.907630782Z   local: 'ChannelStartupService.sendData-Webhook-Global',
+2025-12-10T01:33:01.907635742Z   message: 'Todas as tentativas falharam: Request failed with status code 404',
+2025-12-10T01:33:01.907640083Z   hostName: undefined,
+2025-12-10T01:33:01.907642763Z   syscall: undefined,
+2025-12-10T01:33:01.907645473Z   code: 'ERR_BAD_REQUEST',
+2025-12-10T01:33:01.907663373Z   error: undefined,
+2025-12-10T01:33:01.907667433Z   stack: 'AxiosError: Request failed with status code 404\n' +
+2025-12-10T01:33:01.907675383Z     '    at settle (/evolution/node_modules/axios/dist/node/axios.cjs:2106:12)\n' +
+2025-12-10T01:33:01.907679703Z     '    at BrotliDecompress.handleStreamEnd (/evolution/node_modules/axios/dist/node/axios.cjs:3491:11)\n' +
+2025-12-10T01:33:01.907683203Z     '    at BrotliDecompress.emit (node:events:508:28)\n' +
+2025-12-10T01:33:01.907687154Z     '    at endReadableNT (node:internal/streams/readable:1701:12)\n' +
+2025-12-10T01:33:01.907689994Z     '    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\n' +
+2025-12-10T01:33:01.907692134Z     '    at Axios.request (/evolution/node_modules/axios/dist/node/axios.cjs:4731:41)\n' +
+2025-12-10T01:33:01.907694184Z     '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n' +
+2025-12-10T01:33:01.907696394Z     '    at async _a.retryWebhookRequest (/evolution/dist/main.js:316:67740)\n' +
+2025-12-10T01:33:01.907698494Z     '    at async _a.emit (/evolution/dist/main.js:316:67115)\n' +
+2025-12-10T01:33:01.907700564Z     '    at async Oa.emit (/evolution/dist/main.js:316:72830)\n' +
+2025-12-10T01:33:01.907702614Z     '    at async sa.sendDataWebhook (/evolution/dist/main.js:174:17601)',
+2025-12-10T01:33:01.907704754Z   name: 'AxiosError',
+2025-12-10T01:33:01.907706894Z   url: 'https://eksuplug.com.ng/api/whatsapp/webhook/evolution/connection-update',
+2025-12-10T01:33:01.907709034Z   server_url: 'https://evolution-api-x1xv.onrender.com'
+2025-12-10T01:33:01.907744485Z } 
+2025-12-10T01:33:01.907751955Z

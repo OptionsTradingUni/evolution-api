@@ -1,0 +1,50 @@
+2025-12-10T01:22:45.503127368Z   ~ scheduled_vtu_frequency › reseller_network      rename enum
+2025-12-10T01:22:45.503130768Z   ~ shop_item_type › reseller_network               rename enum
+2025-12-10T01:22:45.503134218Z   ~ stake_status › reseller_network                 rename enum
+2025-12-10T01:22:45.503137748Z   ~ token_purchase_status › reseller_network        rename enum
+2025-12-10T01:22:45.503141228Z   ~ token_transaction_type › reseller_network       rename enum
+2025-12-10T01:22:45.50315828Z   ~ tournament_status › reseller_network            rename enum
+2025-12-10T01:22:45.50316057Z   ~ vtu_network › reseller_network                  rename enum
+2025-12-10T01:22:45.50316264Z   ~ vtu_service_type › reseller_network             rename enum
+2025-12-10T01:22:45.50316471Z   ~ vtu_status › reseller_network                   rename enum
+2025-12-10T01:22:45.50316674Z   ~ website_status › reseller_network               rename enum
+2025-12-10T01:22:55.8102857Z   ~ withdrawal_request_status › reseller_network    rename enum
+2025-12-10T01:22:57.00561847Z ==> Uploading build...
+2025-12-10T01:23:54.168561412Z ==> Uploaded in 30.8s. Compression took 26.3s
+2025-12-10T01:23:54.385252121Z ==> Build successful 🎉
+2025-12-10T01:24:04.122197131Z ==> Deploying...
+2025-12-10T01:24:53.601155423Z ==> Running 'npm run start'
+2025-12-10T01:24:53.966300181Z 
+2025-12-10T01:24:53.966331633Z > rest-express@1.0.0 start
+2025-12-10T01:24:53.966337503Z > NODE_ENV=production node dist/index.js
+2025-12-10T01:24:53.966339963Z 
+2025-12-10T01:24:57.394308698Z MultiCloudinary initialized with 1 credential set(s)
+2025-12-10T01:24:57.400414299Z [Squad] Configuration loaded: hasSecretKey=true, hasPublicKey=true, keyPrefix=sk_2f069484d6f5...
+2025-12-10T01:24:57.401565793Z [Email] Key 1 configured with from: EKSU Plug <system@eksuplug.com.ng>
+2025-12-10T01:24:57.401650818Z [Email] Key 2 configured with from: EKSU Plug <system@eksu.eksuplug.com.ng>
+2025-12-10T01:24:57.401858751Z [Email] Key 3 configured with from: EKSU Plug <system@bro.eksuplug.com.ng>
+2025-12-10T01:24:57.401919435Z [Email] MultiResend initialized with 3 API key(s) and subdomain rotation
+2025-12-10T01:24:57.402062134Z [Email] MultiResend provider initialized with automatic key rotation and fallback.
+2025-12-10T01:24:57.469143359Z [push-service] VAPID keys configured successfully
+2025-12-10T01:24:57.907681615Z New database connection established
+2025-12-10T01:24:58.001980242Z Database sequences initialized successfully
+2025-12-10T01:24:58.002442432Z [test_config] /test-details endpoint registered - public access enabled
+2025-12-10T01:24:58.023248824Z [WhatsApp] Webhook endpoints registered:
+2025-12-10T01:24:58.023271155Z   - POST /api/whatsapp/webhook/evolution
+2025-12-10T01:24:58.023275336Z   - POST /api/webhook/evolution
+2025-12-10T01:24:58.023278096Z   - POST /whatsapp/webhook/evolution
+2025-12-10T01:24:58.024622322Z [prod] Serving static files from: /opt/render/project/src/dist/public
+2025-12-10T01:24:58.024838396Z [prod] Assets folder contains 184 files
+2025-12-10T01:24:58.025426153Z [2025-12-10T01:24:58.025Z] [scheduled-jobs] Starting scheduled job service
+2025-12-10T01:24:58.044361246Z 1:24:58 AM [scheduled-jobs] Starting scheduled job service
+2025-12-10T01:24:58.044443681Z [2025-12-10T01:24:58.044Z] [scheduled-jobs] Scheduled job service started. Interval: 60000ms
+2025-12-10T01:24:58.045022938Z 1:24:58 AM [scheduled-jobs] Scheduled job service started. Interval: 60000ms
+2025-12-10T01:24:58.046721287Z 1:24:58 AM [express] serving on port 10000
+2025-12-10T01:25:01.134864789Z ==> Your service is live 🎉
+2025-12-10T01:25:01.441147547Z ==> 
+2025-12-10T01:25:01.971451921Z ==> ///////////////////////////////////////////////////////////
+2025-12-10T01:25:02.254354751Z ==> 
+2025-12-10T01:25:02.290849507Z ==> Available at your primary URL https://ekiti.eksuplug.com.ng + 5 more domains
+2025-12-10T01:25:02.584711307Z ==> 
+2025-12-10T01:25:02.618753593Z ==> ///////////////////////////////////////////////////////////
+2025-12-10T01:25:58.438010523Z New database connection established
