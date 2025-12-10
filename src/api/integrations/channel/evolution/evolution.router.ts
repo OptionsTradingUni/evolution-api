@@ -22,6 +22,13 @@ export class EvolutionRouter extends RouterBroker {
 
     this.router.post(this.routerPath('whatsapp/webhook/evolution', false), webhookHandler);
     this.router.get(this.routerPath('whatsapp/webhook/evolution', false), webhookVerifyHandler);
+
+    // Also support /api prefix for compatibility
+    this.router.post(this.routerPath('api/webhook/evolution', false), webhookHandler);
+    this.router.get(this.routerPath('api/webhook/evolution', false), webhookVerifyHandler);
+
+    this.router.post(this.routerPath('api/whatsapp/webhook/evolution', false), webhookHandler);
+    this.router.get(this.routerPath('api/whatsapp/webhook/evolution', false), webhookVerifyHandler);
   }
 
   public readonly router: Router = Router();
