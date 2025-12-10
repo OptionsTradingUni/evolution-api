@@ -1,0 +1,398 @@
+pubKey: <Buffer 05 32 00 24 4d 8c 8f 21 e6 3c d1 e2 c9 62 47 68 12 89 1d f1 36 65 2a 51 08 9f 4e 79 b4 62 10 29 29>,
+      privKey: <Buffer 48 65 94 ff cd a3 2c 5e df 98 55 15 5d 6d 3c 9d 07 13 90 bf 1c ad 1b 25 23 99 a7 9b a7 c1 92 5c>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 63 cc be f5 b3 08 82 78 0f 3e 90 3e 9b db cb ac 9e 11 95 e3 d0 41 06 26 ec 32 2b 26 ba 17 54 41>,
+    previousCounter: 0,
+    rootKey: <Buffer 08 9f 84 30 d3 40 40 b3 1f 97 a1 e4 d6 61 9c 19 6c 24 60 e7 af 85 5b 0e ff 65 ee 3a a6 d7 31 a9>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 07 aa 5a de 43 22 bb 9c 5b bc bb 6f 74 12 63 f7 d4 de cc f3 d3 a5 0e 46 88 23 56 6c d8 f4 b8 37>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1765370945450,
+    created: 1765370945450,
+    remoteIdentityKey: <Buffer 05 e7 a3 ba 64 36 a0 b5 8c 8b d6 84 0a 7c 39 ae d4 2c 02 4f c7 29 fd 22 95 96 c8 1c 8b e6 c4 e5 13>
+  },
+  pendingPreKey: {
+    signedKeyId: 9668358,
+    baseKey: <Buffer 05 07 aa 5a de 43 22 bb 9c 5b bc bb 6f 74 12 63 f7 d4 de cc f3 d3 a5 0e 46 88 23 56 6c d8 f4 b8 37>,
+    preKeyId: 6181
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    BR2QsAkmvmwpfJGX8HfyaBjfdWBBJfB66q0c4N9yO71E: { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 606466301,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 1d 90 b0 09 26 be 6c 29 7c 91 97 f0 77 f2 68 18 df 75 60 41 25 f0 7a ea ad 1c e0 df 72 3b bd 44>,
+      privKey: <Buffer 48 13 27 c0 a7 6f 67 51 77 a9 77 f3 9c 8a 98 fb d3 5b 72 00 02 3a 27 1e c3 14 e6 fa c7 84 17 4d>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 69 8c 1c 2f 4b 6b 86 e3 7d 1b 54 a4 58 b6 35 0d 81 67 f2 ce 67 c5 2e c9 a9 d6 cf 39 d1 8c 3c 3b>,
+    previousCounter: 0,
+    rootKey: <Buffer 72 a5 a9 4b 4c 0a e8 25 69 bb c0 a0 24 05 04 0b e4 b4 03 65 e3 3d a0 3f b4 87 cf 13 88 1a 59 9d>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 bc 8d 5d 3b d0 99 e0 34 2e aa 6b 2c 39 8b 9b 24 0c f8 a0 92 b8 97 cf 5f 05 18 d4 ab aa 9c 6e 50>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1765370945452,
+    created: 1765370945452,
+    remoteIdentityKey: <Buffer 05 ff 19 42 e5 5d 1d 28 25 d7 a4 99 f7 33 7e b0 a3 00 90 ef 4a 6d 57 ff 59 4b 53 59 ca 1a 90 00 03>
+  },
+  pendingPreKey: {
+    signedKeyId: 11299889,
+    baseKey: <Buffer 05 bc 8d 5d 3b d0 99 e0 34 2e aa 6b 2c 39 8b 9b 24 0c f8 a0 92 b8 97 cf 5f 05 18 d4 ab aa 9c 6e 50>,
+    preKeyId: 748
+  }
+}
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_3EB0B1C7769EFED9EFE98F_3',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765370958
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Wed Dec 10 2025 09:49:43     LOG   [ChannelStartupService]  [string]  Update not read messages 201503339978753@lid 
+{
+  key: {
+    remoteJid: '2348164143260@s.whatsapp.net',
+    remoteJidAlt: '2348164143260@s.whatsapp.net',
+    fromMe: false,
+    id: '3A035EB8717EE9BCDC5B',
+    participant: '',
+    participantAlt: undefined,
+    addressingMode: 'lid'
+  },
+  pushName: '.',
+  status: 'DELIVERY_ACK',
+  message: {
+    messageContextInfo: {
+      threadId: [],
+      deviceListMetadata: [Object],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    },
+    conversation: 'What’s your name'
+  },
+  contextInfo: {
+    mentionedJid: [],
+    groupMentions: [],
+    statusAttributions: [],
+    expiration: 0,
+    ephemeralSettingTimestamp: { low: 1765126841, high: 0, unsigned: false },
+    disappearingMode: { initiator: 0, trigger: 1, initiatedByMe: false }
+  },
+  messageType: 'conversation',
+  messageTimestamp: 1765370982,
+  instanceId: '2ed9d290-7206-4f53-8479-9c0051030a70',
+  source: 'ios'
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Wed Dec 10 2025 09:49:43     DEBUG   [ChannelStartupService]  [string]  Updating contact: {
+  "id": "201503339978753@lid",
+  "notify": "."
+} 
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Wed Dec 10 2025 09:52:01     LOG   [ChannelStartupService]  [string]  Update not read messages 201503339978753@lid 
+{
+  key: {
+    remoteJid: '2348164143260@s.whatsapp.net',
+    remoteJidAlt: '2348164143260@s.whatsapp.net',
+    fromMe: false,
+    id: '3A00759D0C582C774EAB',
+    participant: '',
+    participantAlt: undefined,
+    addressingMode: 'lid'
+  },
+  pushName: '.',
+  status: 'DELIVERY_ACK',
+  message: {
+    messageContextInfo: {
+      threadId: [],
+      deviceListMetadata: [Object],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    },
+    conversation: '/help'
+  },
+  contextInfo: {
+    mentionedJid: [],
+    groupMentions: [],
+    statusAttributions: [],
+    expiration: 0,
+    ephemeralSettingTimestamp: { low: 1765126841, high: 0, unsigned: false },
+    disappearingMode: { initiator: 0, trigger: 1, initiatedByMe: false }
+  },
+  messageType: 'conversation',
+  messageTimestamp: 1765371121,
+  instanceId: '2ed9d290-7206-4f53-8479-9c0051030a70',
+  source: 'ios'
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Wed Dec 10 2025 09:52:01     DEBUG   [ChannelStartupService]  [string]  Updating contact: {
+  "id": "201503339978753@lid",
+  "notify": "."
+} 
+Closing session: SessionEntry {
+  _chains: {
+    Bb8noqKLBGaeh4xOK9pfZAh7jywehP7TnOBOUX51cYt4: { chainKey: [Object], chainType: 2, messageKeys: {} },
+    'BS6udi7/tNM0uzf1Po+Ncs/NoJghEwk+yKX7UvR+unUZ': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 111551612,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 2e ae 76 2e ff b4 d3 34 bb 37 f5 3e 8f 8d 72 cf cd a0 98 21 13 09 3e c8 a5 fb 52 f4 7e ba 75 19>,
+      privKey: <Buffer 40 c8 3d 29 5e be 23 22 8d 00 7a c3 20 54 ce f5 da 7e f9 81 de 72 7f a4 88 36 3d aa 49 ab 7c 71>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 bf 27 a2 a2 8b 04 66 9e 87 8c 4e 2b da 5f 64 08 7b 8f 2c 1e 84 fe d3 9c e0 4e 51 7e 75 71 8b 78>,
+    previousCounter: 0,
+    rootKey: <Buffer cf a9 28 ec 54 25 36 d6 6f 71 3c bc f9 29 ec 3e 88 ff b2 80 43 b7 28 11 71 a9 7c c6 cb fc de 43>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 33 bb 48 e9 37 fb 82 c8 31 c3 76 f7 58 47 c9 53 bc db a3 bb 40 41 ca 9e ce f9 66 fe 26 09 dd 77>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1765371121333,
+    created: 1765370956847,
+    remoteIdentityKey: <Buffer 05 e7 a3 ba 64 36 a0 b5 8c 8b d6 84 0a 7c 39 ae d4 2c 02 4f c7 29 fd 22 95 96 c8 1c 8b e6 c4 e5 13>
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    BZc9wa325eRZLfehlKn5L3DdJu4V80YchE13tKoVrjB9: { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 606466301,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 97 3d c1 ad f6 e5 e4 59 2d f7 a1 94 a9 f9 2f 70 dd 26 ee 15 f3 46 1c 84 4d 77 b4 aa 15 ae 30 7d>,
+      privKey: <Buffer 50 80 22 2d 08 f4 b8 aa de 6a e1 33 a8 f0 76 74 5c 50 7c 61 d3 1b a7 02 43 64 a5 79 01 56 dd 67>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 69 8c 1c 2f 4b 6b 86 e3 7d 1b 54 a4 58 b6 35 0d 81 67 f2 ce 67 c5 2e c9 a9 d6 cf 39 d1 8c 3c 3b>,
+    previousCounter: 0,
+    rootKey: <Buffer 7f 6c d5 76 2e c3 06 9a 5d aa 9d ec 4e 58 5b 52 aa 0c 01 d1 e7 f8 8a 07 7a b5 12 4c 43 1f 54 f5>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 42 da 7b 50 bd 46 be 14 c8 b0 5c 7a 15 67 c9 35 59 a0 fb 3b 71 b7 8a 3c b6 36 4d 26 a4 21 9f 2c>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1765370956849,
+    created: 1765370956849,
+    remoteIdentityKey: <Buffer 05 ff 19 42 e5 5d 1d 28 25 d7 a4 99 f7 33 7e b0 a3 00 90 ef 4a 6d 57 ff 59 4b 53 59 ca 1a 90 00 03>
+  },
+  pendingPreKey: {
+    signedKeyId: 11299889,
+    baseKey: <Buffer 05 42 da 7b 50 bd 46 be 14 c8 b0 5c 7a 15 67 c9 35 59 a0 fb 3b 71 b7 8a 3c b6 36 4d 26 a4 21 9f 2c>,
+    preKeyId: 695
+  }
+}
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_3EB094E565CCF6F8056847_3',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765371125
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BZm1oQqPZowMnWfZ6aa2C+YeKo1UyZa01dLjRPPTjWMm': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 111551612,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 99 b5 a1 0a 8f 66 8c 0c 9d 67 d9 e9 a6 b6 0b e6 1e 2a 8d 54 c9 96 b4 d5 d2 e3 44 f3 d3 8d 63 26>,
+      privKey: <Buffer 90 fe 30 f8 9f 07 36 06 e7 73 d1 54 95 83 c7 49 71 4c c7 42 46 a8 a8 26 e5 81 63 9a 4a df 0d 76>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 63 cc be f5 b3 08 82 78 0f 3e 90 3e 9b db cb ac 9e 11 95 e3 d0 41 06 26 ec 32 2b 26 ba 17 54 41>,
+    previousCounter: 0,
+    rootKey: <Buffer 9b e1 37 a5 40 61 d4 e0 17 12 01 90 b9 d9 32 49 c7 dc fe 64 92 cf 96 d2 36 39 a0 11 06 0c 84 60>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 26 c6 72 c6 25 3c 4b e1 8d c3 e2 e8 db 99 37 1a e5 16 1d df 0f 83 ae 2f 4b 0b 84 19 78 ff aa 2a>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1765371123366,
+    created: 1765371123366,
+    remoteIdentityKey: <Buffer 05 e7 a3 ba 64 36 a0 b5 8c 8b d6 84 0a 7c 39 ae d4 2c 02 4f c7 29 fd 22 95 96 c8 1c 8b e6 c4 e5 13>
+  },
+  pendingPreKey: {
+    signedKeyId: 9668358,
+    baseKey: <Buffer 05 26 c6 72 c6 25 3c 4b e1 8d c3 e2 e8 db 99 37 1a e5 16 1d df 0f 83 ae 2f 4b 0b 84 19 78 ff aa 2a>,
+    preKeyId: 6041
+  }
+}
+Closing session: SessionEntry {
+  _chains: {
+    'BWCt0HFapwibpZIEx+DdFTGQMNeqhaWuYhJfOR278IIy': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 606466301,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 60 ad d0 71 5a a7 08 9b a5 92 04 c7 e0 dd 15 31 90 30 d7 aa 85 a5 ae 62 12 5f 39 1d bb f0 82 32>,
+      privKey: <Buffer e8 3a 3c fc 1b d4 59 eb ad ba 42 a2 f7 28 fa cf cf 3f 76 c9 4a 13 5f 4d 09 f2 27 b8 73 c5 a2 6d>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 69 8c 1c 2f 4b 6b 86 e3 7d 1b 54 a4 58 b6 35 0d 81 67 f2 ce 67 c5 2e c9 a9 d6 cf 39 d1 8c 3c 3b>,
+    previousCounter: 0,
+    rootKey: <Buffer 48 42 76 77 19 77 75 41 9d c1 5c 5e 33 17 9b 6d 73 00 8e 4d a9 6b 8e ab a0 51 d7 8b 94 26 60 10>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 ab e9 7f 69 15 a4 f4 fe 67 ba 40 27 f9 5a fc 33 4b 58 96 fd 28 cd 48 c6 c8 f3 9a bf 76 44 fe 7d>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1765371123368,
+    created: 1765371123368,
+    remoteIdentityKey: <Buffer 05 ff 19 42 e5 5d 1d 28 25 d7 a4 99 f7 33 7e b0 a3 00 90 ef 4a 6d 57 ff 59 4b 53 59 ca 1a 90 00 03>
+  },
+  pendingPreKey: {
+    signedKeyId: 11299889,
+    baseKey: <Buffer 05 ab e9 7f 69 15 a4 f4 fe 67 ba 40 27 f9 5a fc 33 4b 58 96 fd 28 cd 48 c6 c8 f3 9a bf 76 44 fe 7d>,
+    preKeyId: 736
+  }
+}
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_3EB0E8DD8FAE2ECE640596_3',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765371135
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Wed Dec 10 2025 09:52:20     LOG   [ChannelStartupService]  [string]  Update not read messages 201503339978753@lid 
+{
+  key: {
+    remoteJid: '2348164143260@s.whatsapp.net',
+    remoteJidAlt: '2348164143260@s.whatsapp.net',
+    fromMe: false,
+    id: '3A60B58D5D2E15548E4E',
+    participant: '',
+    participantAlt: undefined,
+    addressingMode: 'lid'
+  },
+  pushName: '.',
+  status: 'DELIVERY_ACK',
+  message: {
+    messageContextInfo: {
+      threadId: [],
+      deviceListMetadata: [Object],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    },
+    conversation: 'Sho gbo mhi'
+  },
+  contextInfo: {
+    mentionedJid: [],
+    groupMentions: [],
+    statusAttributions: [],
+    expiration: 0,
+    ephemeralSettingTimestamp: { low: 1765126841, high: 0, unsigned: false },
+    disappearingMode: { initiator: 0, trigger: 1, initiatedByMe: false }
+  },
+  messageType: 'conversation',
+  messageTimestamp: 1765371140,
+  instanceId: '2ed9d290-7206-4f53-8479-9c0051030a70',
+  source: 'ios'
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Wed Dec 10 2025 09:52:20     DEBUG   [ChannelStartupService]  [string]  Updating contact: {
+  "id": "201503339978753@lid",
+  "notify": "."
+} 
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Wed Dec 10 2025 09:52:29     LOG   [ChannelStartupService]  [string]  Update not read messages 201503339978753@lid 
+{
+  key: {
+    remoteJid: '2348164143260@s.whatsapp.net',
+    remoteJidAlt: '2348164143260@s.whatsapp.net',
+    fromMe: false,
+    id: '3A4552CB10B77B5E0477',
+    participant: '',
+    participantAlt: undefined,
+    addressingMode: 'lid'
+  },
+  pushName: '.',
+  status: 'DELIVERY_ACK',
+  message: {
+    messageContextInfo: {
+      threadId: [],
+      deviceListMetadata: [Object],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    },
+    conversation: 'Sho gbo mhi'
+  },
+  contextInfo: {
+    mentionedJid: [],
+    groupMentions: [],
+    statusAttributions: [],
+    stanzaId: '3EB0E8DD8FAE2ECE640596',
+    participant: '73332909162646@lid',
+    quotedMessage: {
+      conversation: '*EKSUPlug Bot Commands*\n' +
+        '\n' +
+        '*Account:*\n' +
+        '/start - Subscribe to notifications\n' +
+        '/stop - Pause notifications\n' +
+        '/status - Your account details\n' +
+        '/balance - Check your wallet\n' +
+        '/verify - Get verified badge\n' +
+        '\n' +
+        '*Orders:*\n' +
+        '/orders - Your purchase history\n' +
+        '/track [order#] - Track an order\n' +
+        '\n' +
+        '*Selling:*\n' +
+        '/products - Your active listings\n' +
+        '/seller - Sales dashboard\n' +
+        '/qr - View your quick replies\n' +
+        '\n' +
+        '*Other:*\n' +
+        '/refer - Your referral code\n' +
+        '/support [message] - Create support ticket\n' +
+        '/suggestions [idea] - Send us feedback\n' +
+        '/help - This menu\n' +
+        '\n' +
+        '_Type your question - I understand natural language!_\n' +
+        '\n' +
+        'Reply STOP to unsubscribe.'
+    },
+    expiration: 0,
+    ephemeralSettingTimestamp: { low: 1765126841, high: 0, unsigned: false },
+    disappearingMode: { initiator: 0, trigger: 1, initiatedByMe: false },
+    quotedType: 0
+  },
+  messageType: 'conversation',
+  messageTimestamp: 1765371148,
+  instanceId: '2ed9d290-7206-4f53-8479-9c0051030a70',
+  source: 'ios'
+}
+[Evolution API]  [Eksu marketplace]  v2.3.7  114   -  Wed Dec 10 2025 09:52:29     DEBUG   [ChannelStartupService]  [string]  Updating contact: {
+  "id": "201503339978753@lid",
+  "notify": "."
+} 
+Closing session: SessionEntry {
+  _chains: {
+    'BSW0kLV+kudcH1ZJCXwzNUXabkmOB4HGkUfRu7WN9E8X': { chainKey: [Object], chainType: 1, messageKeys: {} }
+  },
+  registrationId: 606466301,
+  currentRatchet: {
+    ephemeralKeyPair: {
+      pubKey: <Buffer 05 25 b4 90 b5 7e 92 e7 5c 1f 56 49 09 7c 33 35 45 da 6e 49 8e 07 81 c6 91 47 d1 bb b5 8d f4 4f 17>,
+      privKey: <Buffer 30 dd 15 b4 46 74 be b9 1a 75 3f 02 fa cd cc 3e fd 94 4e eb 35 6d 5f 1e 87 98 1b 86 a9 1f 52 40>
+    },
+    lastRemoteEphemeralKey: <Buffer 05 69 8c 1c 2f 4b 6b 86 e3 7d 1b 54 a4 58 b6 35 0d 81 67 f2 ce 67 c5 2e c9 a9 d6 cf 39 d1 8c 3c 3b>,
+    previousCounter: 0,
+    rootKey: <Buffer fe 41 45 29 c0 35 0b 6f 20 11 6c f1 e9 20 1e 5b 5e f8 77 35 60 6e 69 46 d7 b6 b0 52 24 da 8c c7>
+  },
+  indexInfo: {
+    baseKey: <Buffer 05 1f 9b 04 d9 23 53 3c 46 72 a8 f3 1e c8 56 7b 7c e9 27 d4 d9 ad 02 96 42 9c 97 29 cb 77 14 17 10>,
+    baseKeyType: 1,
+    closed: -1,
+    used: 1765371134226,
+    created: 1765371134226,
+    remoteIdentityKey: <Buffer 05 ff 19 42 e5 5d 1d 28 25 d7 a4 99 f7 33 7e b0 a3 00 90 ef 4a 6d 57 ff 59 4b 53 59 ca 1a 90 00 03>
+  },
+  pendingPreKey: {
+    signedKeyId: 11299889,
+    baseKey: <Buffer 05 1f 9b 04 d9 23 53 3c 46 72 a8 f3 1e c8 56 7b 7c e9 27 d4 d9 ad 02 96 42 9c 97 29 cb 77 14 17 10>,
+    preKeyId: 66
+  }
+}
+CACHE: {
+  cached: undefined,
+  updateKey: '2ed9d290-7206-4f53-8479-9c0051030a70_3EB09DDD278DD43265C0E7_3',
+  messageTimestamp: undefined,
+  secondsSinceEpoch: 1765371492
+}
+Need
